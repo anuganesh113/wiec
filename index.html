@@ -147,7 +147,7 @@
     <!--==================================================-->
     <!-- Start wiec Main Menu Area -->
     <!--==================================================-->
-    <div class="top-navbar">
+    <div class="top-navbar d-none d-xl-block">
       <div class="row">
         <div class="col-lg-12">
           <nav class="top-nav-section">
@@ -164,8 +164,7 @@
       </div>
     </div>
     <div id="sticky-header" class="wiec_nav_menu">
-      <div class="row align-items-center">
-        <div class="col-lg-3">
+        <div class="left">
           <div class="logo">
             <a class="logo_img" href="index.html" title="wiec">
               <img src="assets/images/logo.png" alt="" />
@@ -175,9 +174,9 @@
             </a>
           </div>
         </div>
-        <div class="col-lg-9 position-static">
-          <nav class="wiec_menu text-center">
-            <ul class="nav_scroll">
+        <div class="right">
+          <nav class="wiec_menu">
+            <ul class="nav_scroll d-none d-xl-flex">
               <li>
                 <a href="#"
                   >Study Abroad <span><i class="fas fa-angle-down"></i></span
@@ -343,93 +342,16 @@
               <li><a href="#">Interview</a></li>
               <li><a href="#">University</a></li>
               <li><a href="#">Services</a></li>
-              <li>
-                <button class="btn btn-primary">Book an Appointment</button>
-              </li>
             </ul>
-            <div class="search-box-btn search-box-outer">
+            <div class="other-menu search-box-btn search-box-outer d-flex">
+              <button class="btn btn-primary book-btn d-none d-xl-block">Book an Appointment</button>
               <div class="nav-btn navSidebar-button">
                 <span><i class="fas fa-align-left"></i></span>
               </div>
             </div>
           </nav>
         </div>
-      </div>
     </div>
-    <!-- wiec Mobile Menu Area -->
-
-    <!-- <div class="mobile-menu-area d-sm-block d-md-block d-lg-none">
-      <div class="mobile-menu">
-        <nav class="wiec_menu">
-          <ul class="nav_scroll">
-            <li>
-              <a href="#home"
-                >Home <span><i class="fas fa-angle-down"></i></span
-              ></a>
-              <ul class="sub-menu">
-                <li><a href="index.html">Digital Agency 01</a></li>
-                <li><a href="index-2.html">Digital Agency 02</a></li>
-                <li><a href="index-3.html">Digital Agency 03</a></li>
-                <li><a href="index-4.html">Digital Agency 04</a></li>
-                <li><a href="index-5.html">Digital Agency 05</a></li>
-                <li><a href="index-6.html">Digital Agency 06</a></li>
-                <li><a href="landing-01.html">Landing Page 01</a></li>
-                <li><a href="landing-02.html">Landing Page 02</a></li>
-                <li><a href="landing-03.html">Landing Page 03</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="#Company"
-                >Company <span><i class="fas fa-angle-down"></i></span
-              ></a>
-              <ul class="sub-menu">
-                <li><a href="mission-&-vission.html">Mission & Vission</a></li>
-                <li><a href="team-member.html">Team Member</a></li>
-                <li><a href="career.html">Career</a></li>
-                <li><a href="career-details.html">Career Datails</a></li>
-                <li><a href="contact-us.html">Contact Us</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="#Services.html"
-                >Services <span><i class="fas fa-angle-down"></i></span
-              ></a>
-              <ul class="sub-menu">
-                <li><a href="service.html">Service</a></li>
-                <li><a href="service-details.html">Service Details</a></li>
-              </ul>
-            </li>
-            <li><a href="#Solution.html">It Solution</a></li>
-            <li>
-              <a href="#blog"
-                >Blog <span><i class="fas fa-angle-down"></i></span
-              ></a>
-              <ul class="sub-menu">
-                <li><a href="blog-grid.html">blog Grid</a></li>
-                <li><a href="blog-list.html">Blog List</a></li>
-                <li><a href="blog-details.html">Blog Details</a></li>
-                <li><a href="blog-2colum.html">Blog 2column</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="#about"
-                >About <span><i class="fas fa-angle-down"></i></span
-              ></a>
-              <ul class="sub-menu">
-                <li><a href="about.html">About</a></li>
-                <li><a href="about-two.html">About Two</a></li>
-              </ul>
-            </li>
-            <li><a href="contact-us.html">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div> -->
-
-    <!--==================================================-->
-    <!-- End wiec Main Menu Area -->
-    <!--==================================================-->
     <!-- Sidebar Cart Item -->
     <div class="xs-sidebar-group info-group">
       <div class="xs-overlay xs-bg-black"></div>
@@ -445,13 +367,84 @@
             <div class="sidebar-info-contents">
               <div class="content-inner">
                 <ul class="menu-list">
+                  <div class="mobile-menu-list d-xl-none">
+                    <li class="dropdown">Study Abroad <span><i class="fas fa-angle-down"></i></span
+                      >
+                    </li>
+                    <ul class="sub-menu dropdown-list">
+                      <li>
+                        <a href="#">Australia</a>
+                      </li>
+                      <li>
+                        <a href="#">USA</a>
+                      </li>
+                      <li>
+                        <a href="#">Japan</a>
+                      </li>
+                      <li>
+                        <a href="#">Korea</a>
+                      </li>
+                      <li>
+                        <a href="#">Denmark</a>
+                      </li>
+                      <li>
+                        <a href="#">Germany</a>
+                      </li>
+                      <li>
+                        <a href="#">New Zealand</a>
+                      </li>
+                      <li>
+                        <a href="#">Ireland</a>
+                      </li>
+                      <li>
+                        <a href="#">Switzerland</a>
+                      </li>
+                      <li>
+                        <a href="#">Canada</a>
+                      </li>
+                      <li>
+                        <a href="#">United Kingdom</a>
+                      </li>
+                      <li>
+                        <a href="#">France</a>
+                      </li>
+                    </ul>
+                    <li><a href="">Learning Center</a></li>
+                    <li class="dropdown">About Us<span><i class="fas fa-angle-down"></i></span
+                      >
+                    </li>
+                    <ul class="sub-menu dropdown-list">
+                      <li>
+                        <a href="#">Message from Director</a>
+                      </li>
+                      <li>
+                        <a href="#">Why Choose Us</a>
+                      </li>
+                      <li>
+                        <a href="#">Association Partner</a>
+                      </li>
+                      <li>
+                        <a href="#">WIEC Team</a>
+                      </li>
+                    </ul>
+                    <li><a href="">Interview</a></li>
+                    <li><a href="">University</a></li>
+                    <li><a href="">Stuudent Accommodation</a></li>
+                    <li><a href="">Counselor Dashboard</a></li>
+                  </div>
                   <li><a href="">Gallery</a></li>
-                  <li><a href="">TESTIMONIALS & REVIEWS</a></li>
+                  <li><a href="">Testimonials & Reviews</a></li>
                   <li><a href="">Success Stories</a></li>
-                  <li><a href="">RESOURCES</a></li>
+                  <li><a href="">Resources</a></li>
                   <li><a href="">Events</a></li>
-                  <li><a href="">USEFUL DOCUMENTS</a></li>
+                  <li><a href="">Useful Documents</a></li>
                   <li><a href="">Contact</a></li>
+                  <div class="mobile-menu-list d-xl-none">
+                    <div class="btn-wrapper">
+                      <a href="#" class="btn btn-primary">Book an Appointment</a>
+                      <a href="#" class="btn btn-primary">Login</a>
+                    </div>
+                  </div> 
                 </ul>
               </div>
             </div>
@@ -500,7 +493,44 @@
           </div>
         </div>
       </div>
-      <div class="slider-area slider2 d-flex align-items-center">
+      <div class="slider-area align-items-center d-flex">
+        <div class="container">
+          <div class="row d-flex align-items-center slider">
+            <div class="col-lg-7 col-md-6 col-sm-12">
+              <div class="slider-content">
+                <h4>Welcome to WI Education</h4>
+                <h1>Study Abroad</h1>
+                <h1>Made <span>Easy</span></h1>
+                <p>
+                  Seamless admissions, top universities, and personalized
+                  support—your journey starts here!
+                </p>
+                <div class="slider-button">
+                  <a href="#"
+                    >Get Started<i class="flaticon-right-arrow"></i
+                  ></a>
+                  <a class="slider-button3" href="#"
+                    >LEARN MORE <i class="flaticon-right-arrow"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-6 col-sm-12">
+              <div class="dreamit-slider-thumb">
+                <img src="assets/images/slider/slider1.png" alt="" />
+              </div>
+            </div>
+            <div class="slider-socail-icon">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-pinterest-p"></i></a>
+              <span class="follow-us">Follow Us:</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="slider-area  d-flex align-items-center">
         <div class="container">
           <div class="row d-flex align-items-center slider">
             <div class="col-lg-5 col-md-6 col-sm-12">
@@ -535,7 +565,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
     <!--==================================================-->
     <!--End wiec slider Area  -->
@@ -686,14 +716,14 @@
     <div class="about-area">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="col-lg-6 col-md-12 col-sm-12">
             <div class="wiec-about-thumb-box">
               <div class="wiec-about-thumb">
                 <img src="assets/images/about/about.jpg" alt="" />
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="col-lg-6 col-md-12 col-sm-12">
             <div class="row about-left">
               <div class="col-lg-12">
                 <div class="dreamit-section-title">
@@ -774,7 +804,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 col-sm-12">
-            <div class="dreamit-section-title text-center style-two">
+            <div class="dreamit-section-title text-center style-two mt-0">
               <h1>Study <span>Destinations</span></h1>
               <p>
                 Explore the World's Top Study Destinations and Unlock Endless
@@ -783,21 +813,21 @@
             </div>
           </div>
           <div class="col-lg-12 col-sm-12">
-            <div class="countries-slider-section row">
+            <!-- <div class="countries-slider-section row">
               <div class="countries-slider owl-carousel">
-                <div class="col-lg-3 col-sm-4">
+                <div class="col-lg-3 col-sm-4 m-sm-1 m-md-0">
                   <div class="img-wrapper">
                     <img src="assets/images/slider/us.jpg" alt="" />
                   </div>
                   <h2>USA</h2>
                 </div>
-                <div class="col-lg-3 col-sm-4">
+                <div class="col-lg-3 col-sm-4 m-sm-1 m-md-0">
                   <div class="img-wrapper">
                     <img src="assets/images/slider/australia.jpg" alt="" />
                   </div>
                   <h2>AUSTRALIA</h2>
                 </div>
-                <div class="col-lg-3 col-sm-4">
+                <div class="col-lg-3 col-sm-4m-sm-1 m-md-0">
                   <div class="img-wrapper">
                     <img src="assets/images/slider/canada.jpg" alt="" />
                   </div>
@@ -810,6 +840,40 @@
                   <h2>UK</h2>
                 </div>
                 <div class="col-lg-3 col-sm-4">
+                  <div class="img-wrapper">
+                    <img src="assets/images/slider/japan.jpg" alt="" />
+                  </div>
+                  <h2>JAPAN</h2>
+                </div>
+              </div>
+            </div> -->
+            <div class="countries-slider-section row">
+              <div class="countries-slider owl-carousel">
+                <div class="slider-item">
+                  <div class="img-wrapper">
+                    <img src="assets/images/slider/us.jpg" alt="" />
+                  </div>
+                  <h2>USA</h2>
+                </div>
+                <div class="slider-item">
+                  <div class="img-wrapper">
+                    <img src="assets/images/slider/australia.jpg" alt="" />
+                  </div>
+                  <h2>AUSTRALIA</h2>
+                </div>
+                <div class="slider-item">
+                  <div class="img-wrapper">
+                    <img src="assets/images/slider/canada.jpg" alt="" />
+                  </div>
+                  <h2>CANADA</h2>
+                </div>
+                <div class="slider-item">
+                  <div class="img-wrapper">
+                    <img src="assets/images/slider/uk.jpg" alt="" />
+                  </div>
+                  <h2>UK</h2>
+                </div>
+                <div class=" slider-item">
                   <div class="img-wrapper">
                     <img src="assets/images/slider/japan.jpg" alt="" />
                   </div>
@@ -1045,7 +1109,7 @@
           <div class="col-lg-12 col-sm-12">
             <div class="dreamit-section-title text-center style-two">
               <h5>BLOG POST</h5>
-              <h1>Read our latest insights</h1>
+              <h1>Read our latest <span>insights</span></h1>
             </div>
           </div>
         </div>
@@ -1153,12 +1217,12 @@
     <div class="contact-area">
       <div class="container">
         <div class="row"> 
-          <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="col-lg-6 col-md-12 col-sm-12">
             <div class="contact-image">
               <img src="assets/images/girl1.png" alt="">
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="col-lg-6 col-md-12 col-sm-12">
             <div class="contact-form-box style-three upper2">
                    <div class="contact-form-title white">
                      <h5>Contact</h5>
@@ -1469,27 +1533,29 @@
         $(".countries-slider").slick({
           slidesToShow: 3,
           slidesToScroll: 3,
-          // autoplay: true,
-          // autoplaySpeed: 2000,
+          autoplay: true,
+          arrows: false,
+          autoplaySpeed: 2000,
+          infinite: true,
           prevArrow:
             '<button class="custom-prev"><i class="fa-solid fa-circle-chevron-left"></i></button>',
           nextArrow:
             '<button class="custom-next"><i class="fa-solid fa-circle-chevron-right"></i></button>',
           responsive: [
             {
-              breakpoint: 992,
+              breakpoint: 1200,
               settings: {
                 slidesToShow: 3,
               },
             },
             {
-              breakpoint: 768,
+              breakpoint: 991,
               settings: {
                 slidesToShow: 2,
               },
             },
             {
-              breakpoint: 480,
+              breakpoint: 768,
               settings: {
                 slidesToShow: 1,
               },
@@ -1627,6 +1693,33 @@
 
   const satisfactionOdometer = document.querySelector(".satisfaction-odometer");
   createOdometer(satisfactionOdometer, 89);
+  </script>
+  <script>
+// Select all dropdown triggers and their corresponding lists
+const dropdownTriggers = document.querySelectorAll('.dropdown');
+
+// Loop through each dropdown trigger
+dropdownTriggers.forEach(trigger => {
+  // Find the dropdown list associated with this trigger
+  // (assuming it's the next sibling element)
+  const dropdownList = trigger.nextElementSibling;
+
+  // Add click event listener
+  trigger.addEventListener('click', (e) => {
+    e.preventDefault(); // Prevent default link behavior if needed
+    
+    // Close all other dropdowns first (optional)
+    document.querySelectorAll('.dropdown-list.active').forEach(activeList => {
+      if (activeList !== dropdownList) {
+        activeList.classList.remove('active');
+      }
+    });
+    
+    // Toggle the current dropdown
+    dropdownList.classList.toggle('active');
+  });
+});
+    
   </script>
   </body>
 </html>
