@@ -2589,7 +2589,7 @@
 }
 @media only screen and (max-width: 768px) {
   .slider-area {
-    height: 1000px;
+    /* height: 920px; */
   }
   .service-area {
     padding: 0 0 70px;
