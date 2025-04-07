@@ -1,9 +1,24 @@
 <?php include('header.php') ?>
 
 <div class="about-page">
-    <div class="common-heading-section" style="background: url(assets/images/bg2.jpg)">
-        <div class="content-wrapper">
-            <h2>Your Trusted Partner in <span>Education and Career Success</span></h2>
+
+    <div class="breadcrumb-area" style="background: url(assets/images/breadcrumb.jpg)">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-12">
+                    <div class="breadcrumb-content text-center">
+                        <div class="breadcrumb-content-text1">
+                            <ul>
+                                <li><span>About Us</span> About</li>
+                            </ul>
+                        </div>
+                        <div class="breadcrumb-title1">
+                            <h2>About Us</h2>
+                            <p>We are a dedicated team passionate about delivering excellence and innovative solutions to meet your needs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 

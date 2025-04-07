@@ -2,11 +2,26 @@
 
 <div class="country-page">
 
-  <div class="common-heading-section" style="background: url(assets/images/bg2.jpg)">
-    <div class="content-wrapper">
-      <h2>Study in <span>Australia</span></h2>
+  <div class="breadcrumb-area" style="background: url(assets/images/breadcrumb.jpg)">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-12">
+          <div class="breadcrumb-content text-center">
+            <div class="breadcrumb-content-text1">
+              <ul>
+                <li><span>Study Abroad</span> Australia</li>
+              </ul>
+            </div>
+            <div class="breadcrumb-title1">
+              <h2>Study in Australia</h2>
+              <p>Australia offers world-class education, vibrant campuses, and a multicultural environment ideal for international students.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+
 
   <div class="content-section">
     <div class="container">
@@ -82,21 +97,21 @@
         <div class="reasons-section">
           <div class="row">
             <div class="col-lg-4">
-              <div class="reason-card">
+              <div class="reason-card common-item">
                 <p class="reason-number">1.</p>
                 <h3>Quality in Education</h3>
                 <p>Australia’s commitment to education excellence, innovative teaching, and cutting-edge research fosters high-quality learning, preparing students for future success.</p>
               </div>
             </div>
             <div class="col-lg-4">
-              <div class="reason-card">
+              <div class="reason-card common-item">
                 <p class="reason-number">2.</p>
                 <h3>Good Potential For Employment After Course Completion.</h3>
                 <p>These courses open doors to diverse job opportunities. Skills gained lead to a promising career path, valued by employers across industries, ensuring fulfilling employment prospects.</p>
               </div>
             </div>
             <div class="col-lg-4">
-              <div class="reason-card">
+              <div class="reason-card common-item">
                 <p class="reason-number">3.</p>
                 <h3>English as a Second Language (ESL) Programs</h3>
                 <p>Australian ESL programs offer personalized language learning. Qualified instructors and immersive environments nurture language skills and cultural integration, enriching academic and social experiences for international students.
@@ -104,7 +119,7 @@
               </div>
             </div>
             <div class="col-lg-4">
-              <div class="reason-card">
+              <div class="reason-card common-item">
                 <p class="reason-number">4.</p>
                 <h3>Information and Communication Technology in Schools</h3>
                 <p>Australia has a reputation for an innovative and research-intensive culture by adopting new technologies at a faster rate than most other countries, because of this it has one of the highest rates of Internet access in the world.</p>

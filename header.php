@@ -137,9 +137,9 @@
       <div class="col-lg-12">
         <nav class="top-nav-section">
           <ul>
-            <li><a href="#">student accommodation</a></li>
-            <li><a href="#">news & offer</a></li>
-            <li><a href="#">counselor dashboard</a></li>
+            <li><a href="gallery.php">gallery</a></li>
+            <li><a href="#">news & updates</a></li>
+            <li><a href="contact.php">contact</a></li>
             <li>
               <a href="#"><i class="fa-solid fa-user mr-2"></i>login</a>
             </li>
@@ -235,7 +235,7 @@
               </ul>
             </div>
           </li>
-          <li><a href="#">Learning Center</a></li>
+          <li><a href="test-preparation.php">Test Preparation</a></li>
           <li>
             <a href="#">About Us <span><i class="fas fa-angle-down"></i></span></a>
             <div class="sub-menu about-submenu">
@@ -248,7 +248,7 @@
                   education journey.
                 </p>
                 <div class="slider-button">
-                  <a href="#">Learn More</a>
+                  <a href="about.php">Learn More</a>
                 </div>
               </ul>
               <ul class="about-submenu-list">
@@ -261,22 +261,13 @@
                     us</a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa-solid fa-chevron-right"></i>Association
-                    Partner</a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa-solid fa-chevron-right"></i>Message from
-                    Director</a>
-                </li>
-                <li>
                   <a href="#"><i class="fa-solid fa-chevron-right"></i>WIEC Team</a>
                 </li>
               </ul>
             </div>
           </li>
-          <li><a href="#">Interview</a></li>
-          <li><a href="#">University</a></li>
-          <li><a href="#">Services</a></li>
+          <li><a href="university.php">University</a></li>
+          <li><a href="services.php">Services</a></li>
         </ul>
         <div class="other-menu search-box-btn search-box-outer d-flex">
           <button class="btn btn-primary book-btn d-none d-xl-block">Book an Appointment</button>
@@ -343,10 +334,13 @@
                       <a href="country.php">France</a>
                     </li>
                   </ul>
-                  <li><a href="">Learning Center</a></li>
+                  <li><a href="test-preparation.php">Test Preparation</a></li>
                   <li class="dropdown">About Us<span><i class="fas fa-angle-down"></i></span>
                   </li>
                   <ul class="sub-menu dropdown-list">
+                    <li>
+                      <a href="about.php">About Us</a>
+                    </li>
                     <li>
                       <a href="#">Message from Director</a>
                     </li>
@@ -357,18 +351,15 @@
                       <a href="#">WIEC Team</a>
                     </li>
                   </ul>
-                  <li><a href="">Interview</a></li>
-                  <li><a href="">University</a></li>
-                  <li><a href="">Stuudent Accommodation</a></li>
-                  <li><a href="">Counselor Dashboard</a></li>
+                  <li><a href="university.php">University</a></li>
+                  <li><a href="gallery.php">Gallery</a></li>
+                  <li><a href="contact.php">Contact</a></li>
                 </div>
-                <li><a href="">Gallery</a></li>
                 <li><a href="">Testimonials & Reviews</a></li>
                 <li><a href="">Success Stories</a></li>
                 <li><a href="">Resources</a></li>
                 <li><a href="">Events</a></li>
                 <li><a href="">Useful Documents</a></li>
-                <li><a href="">Contact</a></li>
                 <div class="mobile-menu-list d-xl-none">
                   <div class="btn-wrapper">
                     <a href="#" class="btn btn-primary">Book an Appointment</a>
