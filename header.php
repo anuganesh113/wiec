@@ -38,6 +38,11 @@
     type="text/css"
     media="all" />
   <!-- animated-text CSS -->
+  <!-- Light Gallery css -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.8.3/css/lightgallery-bundle.min.css"
+    integrity="sha512-fXavT4uA4L0uTUFHC275D7zd751ohbSuD6VUMc5JysWfmR+NxTI3w7etE7N9hjTETcoh0w0V+24Cel4xXnqvCg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link
     rel="stylesheet"
     href="assets/css/animated-text.css"
@@ -114,6 +119,10 @@
     type="text/css"
     media="screen" />
   <!-- slick slider CSS -->
+
+  <!-- Photoswipe css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.4.4/photoswipe.min.css" integrity="sha512-LFWtdAXHQuwUGH9cImO9blA3a3GfQNkpF2uRlhaOpSbDevNyK1rmAjs13mtpjvWyi+flP7zYWboqY+8Mkd42xA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <link
     rel="stylesheet"
     href="assets/css/slick-theme.css"
@@ -137,8 +146,8 @@
       <div class="col-lg-12">
         <nav class="top-nav-section">
           <ul>
-            <li><a href="gallery.php">gallery</a></li>
-            <li><a href="#">news & updates</a></li>
+            <!-- <li><a href="gallery.php">gallery</a></li> -->
+            <li><a href="blog.php">news & updates</a></li>
             <li><a href="contact.php">contact</a></li>
             <li>
               <a href="#"><i class="fa-solid fa-user mr-2"></i>login</a>
@@ -253,15 +262,14 @@
               </ul>
               <ul class="about-submenu-list">
                 <li>
-                  <a href="#"><i class="fa-solid fa-chevron-right"></i>Message from
+                  <a href="director-message.php"><i class="fa-solid fa-chevron-right"></i>Message from
                     Director</a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa-solid fa-chevron-right"></i>Why Choose
-                    us</a>
+                  <a href="gallery.php"><i class="fa-solid fa-chevron-right"></i>Gallery</a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa-solid fa-chevron-right"></i>WIEC Team</a>
+                  <a href="team.php"><i class="fa-solid fa-chevron-right"></i>WIEC Team</a>
                 </li>
               </ul>
             </div>
@@ -270,7 +278,7 @@
           <li><a href="services.php">Services</a></li>
         </ul>
         <div class="other-menu search-box-btn search-box-outer d-flex">
-          <button class="btn btn-primary book-btn d-none d-xl-block">Book an Appointment</button>
+          <a href="book-appointment.php" class="btn btn-primary book-btn d-none d-xl-block" data-toggle=" modal" data-target="#exampleModal">Book an Appointment</a>
           <div class="nav-btn navSidebar-button">
             <span><i class="fas fa-align-left"></i></span>
           </div>
@@ -342,17 +350,17 @@
                       <a href="about.php">About Us</a>
                     </li>
                     <li>
-                      <a href="#">Message from Director</a>
+                      <a href="director-message.php">Message from Director</a>
                     </li>
                     <li>
-                      <a href="#">Why Choose Us</a>
+                      <a href="gallery.php">Gallery</a>
                     </li>
                     <li>
-                      <a href="#">WIEC Team</a>
+                      <a href="team.php">WIEC Team</a>
                     </li>
                   </ul>
                   <li><a href="university.php">University</a></li>
-                  <li><a href="gallery.php">Gallery</a></li>
+                  <!-- <li><a href="gallery.php">Gallery</a></li> -->
                   <li><a href="contact.php">Contact</a></li>
                 </div>
                 <li><a href="">Testimonials & Reviews</a></li>

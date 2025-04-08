@@ -645,89 +645,85 @@
 <!--==================================================-->
 <!-- Start wiec Blog Area -->
 <!--==================================================-->
-<div class="blog_area">
+<div class="blog_area content-section">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 col-sm-12">
         <div class="common-section-title text-center style-two">
-          <h5>BLOG POST</h5>
+          <h5>NEWS & Updates</h5>
           <h1>Read our latest <span>insights</span></h1>
         </div>
       </div>
     </div>
     <div class="row">
       <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="single_blog">
+        <a href="blog-details.php" class="single_blog">
           <div class="single_blog_thumb">
-            <a href="blog-details.php">
-              <img src="assets/images/resource/blog1.jpg" alt="" /></a>
+            <img src="assets/images/resource/blog1.jpg" alt="" />
           </div>
           <div class="single_blog_content">
             <div class="post-categories">
-              <a href="#"><span><i class="far fa-calendar-alt"></i></span>July
-                10,2024</a>
+              <span><i class="far fa-calendar-alt"></i></span>July 10,2024
             </div>
             <div class="wiec_blog_meta">
-              <a href="#"><i class="far fa-user-circle"></i> By John</a>
+              <i class="far fa-user-circle"></i> By John
             </div>
             <div class="blog_page_title">
               <h4>
-                <a href="blog-details.php">Top 15 Secrete Business Ideas Next Levels</a>
+                Top 15 Secrete Business Ideas Next Levels
               </h4>
             </div>
             <div class="blog_button">
-              <a href="#"><i class="flaticon flaticon-right-arrow"></i></a>
+              <i class="flaticon flaticon-right-arrow"></i>
             </div>
           </div>
-        </div>
+        </a>
       </div>
       <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="single_blog">
+        <a href="blog-details.php" class="single_blog">
           <div class="single_blog_thumb">
-            <a href="blog-details.php"><img src="assets/images/resource/blog2.jpg" alt="" /></a>
-          </div>
-          <div class="single_blog_content style_two">
-            <div class="post-categories">
-              <a href="#"><span><i class="far fa-calendar-alt"></i></span>July
-                10,2024</a>
-            </div>
-            <div class="wiec_blog_meta">
-              <a href="#"><i class="far fa-user-circle"></i> By Posted </a>
-            </div>
-            <div class="blog_page_title">
-              <h4>
-                <a href="blog-details.php">Premium Supply Chains is Network turnkey</a>
-              </h4>
-            </div>
-            <div class="blog_button">
-              <a href="#"><i class="flaticon flaticon-right-arrow"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="single_blog">
-          <div class="single_blog_thumb">
-            <a href="blog-details.php"><img src="assets/images/resource/blog3.jpg" alt="" /></a>
+            <img src="assets/images/resource/blog1.jpg" alt="" />
           </div>
           <div class="single_blog_content">
             <div class="post-categories">
-              <a href="#"><span><i class="far fa-calendar-alt"></i></span>July
-                10,2024</a>
+              <span><i class="far fa-calendar-alt"></i></span>July 10,2024
             </div>
             <div class="wiec_blog_meta">
-              <a href="#"><i class="far fa-user-circle"></i> By Jhon</a>
+              <i class="far fa-user-circle"></i> By John
             </div>
             <div class="blog_page_title">
               <h4>
-                <a href="blog-details.php">Diverse Intellectual Capital Before Distinctive</a>
+                Top 15 Secrete Business Ideas Next Levels
               </h4>
             </div>
             <div class="blog_button">
-              <a href="#"><i class="flaticon flaticon-right-arrow"></i></a>
+              <i class="flaticon flaticon-right-arrow"></i>
             </div>
           </div>
-        </div>
+        </a>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <a href="blog-details.php" class="single_blog">
+          <div class="single_blog_thumb">
+            <img src="assets/images/resource/blog1.jpg" alt="" />
+          </div>
+          <div class="single_blog_content">
+            <div class="post-categories">
+              <span><i class="far fa-calendar-alt"></i></span>July 10,2024
+            </div>
+            <div class="wiec_blog_meta">
+              <i class="far fa-user-circle"></i> By John
+            </div>
+            <div class="blog_page_title">
+              <h4>
+                Top 15 Secrete Business Ideas Next Levels
+              </h4>
+            </div>
+            <div class="blog_button">
+              <i class="flaticon flaticon-right-arrow"></i>
+            </div>
+          </div>
+        </a>
       </div>
     </div>
   </div>
