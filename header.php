@@ -150,7 +150,61 @@
             <li><a href="blog.php">news & updates</a></li>
             <li><a href="contact.php">contact</a></li>
             <li>
-              <a href="#"><i class="fa-solid fa-user mr-2"></i>login</a>
+              <a href="" data-toggle="modal" data-target="#exampleModal"><i class="fa-solid fa-user mr-2"></i>login</a>
+              <!--Login Modal -->
+              <div class="login-modal modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active" id="pills-student-tab" data-toggle="pill" data-target="#pills-student" type="button" role="tab" aria-controls="pills-student" aria-selected="true">Student Login</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="pills-admin-tab" data-toggle="pill" data-target="#pills-admin" type="button" role="tab" aria-controls="pills-admin" aria-selected="false">Admin Login</button>
+                        </li>
+                      </ul>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="fa-solid fa-xmark"></i>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-student" role="tabpanel" aria-labelledby="pills-student-tab">
+                          <form>
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your Email Address">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your Password">
+                            </div>
+                            <button type="submit" class="slider-button">
+                              <a href="login.php">Login</a>
+                            </button>
+                          </form>
+                        </div>
+                        <div class="tab-pane fade" id="pills-admin" role="tabpanel" aria-labelledby="pills-admin-tab">
+                          <form>
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your Email Address">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your Password">
+                            </div>
+                            <button type="submit" class="slider-button">
+                              <a href="login.php">Login</a>
+                            </button>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </li>
           </ul>
         </nav>
@@ -177,8 +231,9 @@
               <ul>
                 <li>
                   <a href="country.php"><img
-                      src="assets/images/countries/australia.webp"
-                      alt="" />Australia</a>
+                      src="assets/images/countries/usa.webp"
+                      alt="" />USA</a>
+
                 </li>
                 <li>
                   <a href="country.php"><img
@@ -194,8 +249,8 @@
               <ul>
                 <li>
                   <a href="country.php"><img
-                      src="assets/images/countries/usa.webp"
-                      alt="" />USA</a>
+                      src="assets/images/countries/australia.webp"
+                      alt="" />Australia</a>
                 </li>
                 <li>
                   <a href="country.php"><img
@@ -363,11 +418,12 @@
                   <!-- <li><a href="gallery.php">Gallery</a></li> -->
                   <li><a href="contact.php">Contact</a></li>
                 </div>
-                <li><a href="">Testimonials & Reviews</a></li>
-                <li><a href="">Success Stories</a></li>
+                <li><a href="success-stories.php">Success Stories</a></li>
                 <li><a href="">Resources</a></li>
-                <li><a href="">Events</a></li>
-                <li><a href="">Useful Documents</a></li>
+                <li><a href="events.php">Events</a></li>
+                <li><a href="online-application.php">Online Application</a></li>
+                <li><a href="how-to-obtain-visa.php">How to Obtain Visa</a></li>
+                <li><a href="sop-bank.php">SOP Bank</a></li>
                 <div class="mobile-menu-list d-xl-none">
                   <div class="btn-wrapper">
                     <a href="#" class="btn btn-primary">Book an Appointment</a>

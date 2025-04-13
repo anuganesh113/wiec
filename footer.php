@@ -83,23 +83,20 @@
         <h4 class="widget-title"><span>Q</span>UICK LINKS</h4>
         <div class="menu-quick-link-content">
           <ul class="menu">
-            <li><a href="#">About WIEC</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Universities</a></li>
-            <li><a href="#">Resources</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Contact us</a></li>
-            <li><a href="#">WIEC Learning Center</a></li>
+            <li><a href="about.php">About WIEC</a></li>
+            <li><a href="services.php">Services</a></li>
+            <li><a href="university.php">Universities</a></li>
+            <li><a href="resources.php">Resources</a></li>
+            <li><a href="events.php">Events</a></li>
+            <li><a href="contact.php">Contact us</a></li>
+            <li><a href="test-preparation.php">Test Preparation</a></li>
           </ul>
 
           <ul class="menu">
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">News & Offer</a></li>
-            <li><a href="#">Testimonials & Reviews</a></li>
-            <li><a href="#">Success Stories</a></li>
-            <li><a href="#">Interviews</a></li>
-            <li><a href="#">OHSC</a></li>
-            <li><a href="#">FAQ’s</a></li>
+            <li><a href="gallery.php">Gallery</a></li>
+            <li><a href="blog.php">News & Updates</a></li>
+            <li><a href="success-stories.php">Success Stories</a></li>
+            <li><a href="faq.php">FAQ’s</a></li>
           </ul>
         </div>
       </div>
@@ -107,37 +104,31 @@
         <h4 class="widget-title"><span>N</span>EED FOR STUDENTS</h4>
         <div class="menu-quick-link-content">
           <ul class="menu">
-            <li><a href="#">Career Counseling</a></li>
-            <li><a href="#">Online Application</a></li>
-            <li><a href="#">How to Obtain Visa</a></li>
-            <li><a href="#">Student Accommodation</a></li>
-
+            <li><a href="online-application.php">Online Application</a></li>
+            <li><a href="how-to-obtain-visa.php">How to Obtain Visa</a></li>
           </ul>
-
           <ul class="menu">
-            <li><a href="#">Currency Converter</a></li>
-            <li><a href="#">Date Converter</a></li>
-            <li><a href="#">SOP Bank</a></li>
-            <li><a href="#">Score Comparison</a></li>
+            <li><a href="https://www.xe.com/currencyconverter/">Currency Converter</a></li>
+            <li><a href="https://www.hamropatro.com/date-converter">Date Converter</a></li>
+            <li><a href="sop-bank.php">SOP Bank</a></li>
           </ul>
         </div>
       </div>
 
       <div class="widget widget-nav-menu">
         <h4 class="widget-title">
-          <span>U</span>SEFUL DOCUMENTS
+          <span>T</span>EST PREPARATION
         </h4>
         <div class="menu-quick-link-content">
           <ul class="menu">
-            <li><a href="#">Experience Letter</a></li>
-            <li><a href="#">Affidavit / Sponsorship Certificate</a></li>
-            <li><a href="#">Bio-Data</a></li>
-
+            <li><a href="course.php">IELTS</a></li>
+            <li><a href="course.php">TOEFL</a></li>
+            <li><a href="course.php">PTE</a></li>
           </ul>
           <ul class="menu">
-            <li><a href="#">Recommendation Letter</a></li>
-            <li><a href="#">Sample Documents</a></li>
-            <li><a href="#">10 easy steps to follow to study abroad</a></li>
+            <li><a href="course.php">SAT</a></li>
+            <li><a href="course.php">GRE</a></li>
+            <li><a href="course.php">GMAT</a></li>
           </ul>
         </div>
       </div>

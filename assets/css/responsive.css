@@ -2547,6 +2547,9 @@
 }
 
 @media only screen and (max-width: 1200px) {
+  .common-title {
+    font-size: 42px;
+  }
   .wiec_nav_menu {
     padding: 0 20px;
   }
@@ -2562,6 +2565,12 @@
   }
   .wiec-testimonial-thumb img {
     width: 700px;
+  }
+  .country-page .more-info-section .info-card img {
+    width: 85px;
+  }
+  .country-page .more-info-section .info-card h3 {
+    font-size: 24px;
   }
 }
 @media only screen and (max-width: 991px) {
@@ -2588,8 +2597,14 @@
   }
 }
 @media only screen and (max-width: 768px) {
-  .slider-area {
-    /* height: 920px; */
+  .content-section {
+    padding: 60px 0;
+  }
+  .common-title {
+    font-size: 36px;
+  }
+  p {
+    font-size: 16px !important;
   }
   .service-area {
     padding: 0 0 70px;
@@ -2664,5 +2679,34 @@
   .sidebar-info-contents .menu-list .btn-wrapper a {
     display: flex;
     align-items: center;
+  }
+  .breadcrumb-content {
+    padding: 70px 0;
+  }
+  .breadcrumb-area .breadcrumb-title1 h2 {
+    font-size: 55px;
+  }
+  .country-page .content-section .text-section h2 span {
+    font-size: 42px;
+  }
+  .country-page .content-section .text-section h2 {
+    font-size: 36px;
+  }
+
+  .country-page .content-section .text-section p {
+    margin: 30px 0;
+  }
+  .country-page .why-study-section .reasons-section {
+    margin: 40px 0;
+  }
+  .country-page
+    .why-study-section
+    .reasons-section
+    .reason-card
+    .reason-number {
+    font-size: 42px !important;
+  }
+  .row.subscribe-bg {
+    padding: 40px 20px;
   }
 }
