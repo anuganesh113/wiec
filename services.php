@@ -9,7 +9,7 @@
                     <div class="breadcrumb-content text-center">
                         <div class="breadcrumb-title1">
                             <h2>Services We Provide</h2>
-                            <p>We offer expert guidance for students seeking higher education opportunities abroad and locally. Our services include university admissions support, visa assistance, and career counseling.</p>
+                            <p>We offer expert guidance for students seeking higher education opportunities abroad and locally.</p>
                         </div>
                     </div>
                 </div>
@@ -18,7 +18,7 @@
     </div>
 
 
-    <div class="service-area">
+    <div class="service-area content-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 padding-left">
@@ -187,8 +187,7 @@
                     <div class="contact-form-box style-three upper2">
                         <div class="contact-form-title white">
                             <h5>Contact</h5>
-                            <h3>FEEL FREE TO CONTACT</h3>
-                            <h3>US FOR MORE INFO</h3>
+                            <h3>FEEL FREE TO CONTACT US FOR MORE INFO</h3>
                         </div>
                         <form action="https://formspree.io/f/myyleorq" method="POST" id="dreamit-form">
                             <div class="row">

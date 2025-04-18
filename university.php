@@ -19,7 +19,7 @@
 
     <div class="university-menu-section">
         <div class="container">
-            <h2 class="common-title">Universities Represened By <span>WIEC</h1>
+            <h2 class="common-title">Universities Represented By <span>WIEC</h1>
                     <ul class="nav nav-pills mb-4" id="pills-tab" role="tablist">
                         <li class="nav-item" role="presentation">
                             <button class="nav-link active" id="pills-australia-tab" data-toggle="pill" data-target="#pills-australia" type="button" role="tab" aria-controls="pills-australia" aria-selected="true">Australia</button>

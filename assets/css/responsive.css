@@ -191,7 +191,6 @@
   }
   .slider-button a {
     padding: 14px 25px;
-    font-size: 16px;
   }
   .slider2 .slider-socail-icon {
     right: 5px;
@@ -271,7 +270,7 @@
     margin-right: 15px;
   }
   .blog-page-title h2 {
-    font-size: 25px;
+    font-size: 36px;
   }
   .style-four .techno-service-title h2 {
     font-size: 19px;
@@ -325,12 +324,6 @@
   }
   .sticky.style-two .header-button {
     margin: 20px 80px 0 0px;
-  }
-  .menu-quick-link-content ul li a {
-    font-size: 13px;
-  }
-  .footer-recent-post ul li a {
-    font-size: 13px;
   }
   .slider7 .slider-shape-inner1 img {
     left: 517px;
@@ -417,10 +410,10 @@
     font-size: 22px;
   }
   .footer-socail-info2 p {
-    font-size: 13px;
+    /* font-size: 13px; */
   }
   .footer-socail-info p {
-    font-size: 14px;
+    /* font-size: 14px; */
   }
   .footer-socail-info2 {
     overflow: hidden;
@@ -523,6 +516,9 @@
   }
   .style-two .testimonial-title p {
     font-size: 16px;
+  }
+  .common-card-section .content h3 {
+    font-size: 24px;
   }
 }
 
@@ -653,12 +649,6 @@
   .dreamit-section-title h1 {
     font-size: 30px;
   }
-  .contact-form-box.style-two {
-    padding: 34px 9px 30px;
-  }
-  .form-title p {
-    font-size: 12px;
-  }
   .breatcumb-title h2 {
     font-size: 60px;
   }
@@ -682,7 +672,7 @@
     margin-right: 16px;
   }
   .blog-page-title h2 {
-    font-size: 21px;
+    font-size: 32px;
   }
   .meta-blog a {
     font-size: 14px;
@@ -702,7 +692,7 @@
     left: -19px;
   }
   .meta-blog span {
-    font-size: 13px;
+    font-size: 16px;
   }
   .meta-blog-right a {
     font-size: 14px;
@@ -1005,7 +995,7 @@
     font-size: 22px;
   }
   .footer-socail-info2 p {
-    font-size: 15px;
+    /* font-size: 15px; */
   }
   .footer-socail-info2 {
     overflow: hidden;
@@ -1146,7 +1136,6 @@
   }
   .slider-button a {
     padding: 12px 30px;
-    font-size: 15px;
   }
   .slider-button i {
     font-size: 11px;
@@ -1368,7 +1357,7 @@
     margin: 18px 0 0px;
   }
   .blog-page-title h2 {
-    font-size: 23px;
+    font-size: 32px;
   }
   .slider-button2 a {
     padding: 15px 25px;
@@ -1644,13 +1633,114 @@
     font-size: 14px;
   }
 }
-/* small mobile :320px. */
+
+@media only screen and (max-width: 1200px) {
+  .common-section-title h1 {
+    font-size: 42px;
+  }
+  .common-title {
+    font-size: 42px;
+  }
+  .wiec_nav_menu {
+    padding: 0 20px;
+  }
+  .logo img {
+    max-width: 70px;
+  }
+  .countries-slider img,
+  .countries-slider h2 {
+    width: 280px;
+  }
+  .testimonial-content h2:before {
+    display: none;
+  }
+  .wiec-testimonial-thumb img {
+    width: 700px;
+  }
+  .country-page .more-info-section .info-card img {
+    width: 85px;
+  }
+  .country-page .more-info-section .info-card h3 {
+    font-size: 24px;
+  }
+  .book-appointment-section .common-title {
+    font-size: 58px;
+  }
+  .enroll-form {
+    padding: 20px;
+  }
+  .common-details-section .left-content {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+  .common-card-section .content {
+    margin-top: -100px;
+  }
+  .success-stories-item .content {
+    padding-top: 10px;
+    font-size: 17px;
+  }
+  .success-stories-item .content p.name {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .wiec-about-thumb {
+    display: flex;
+    justify-content: center;
+    right: 0;
+  }
+  .dreamit-section-title {
+    text-align: center !important;
+    /* margin-top: 40px; */
+  }
+  .dreamit-section-title p {
+    margin-top: 30px;
+  }
+  .blog_area {
+    padding: 40px 0;
+  }
+  .contact-area {
+    background-color: transparent;
+  }
+  .contact-image {
+    display: none;
+  }
+  .wiec-single-counter-box {
+    margin-bottom: 60px;
+  }
+  .footer-widget-address {
+    margin-bottom: 20px;
+  }
+  .course-page .course-content-section .right-content {
+    margin-left: 0;
+    margin-top: 40px;
+  }
+  .common-details-section {
+    margin-right: 0;
+  }
+  .gallery-inner-section .gallery-container .gallery-item {
+    flex-basis: 47%;
+  }
+  .common-card-section .content {
+    margin-top: -110px;
+  }
+  .book-appointment-section .enroll-form {
+    margin-top: 30px;
+  }
+  .success-stories-item .content {
+    text-align: center;
+  }
+}
 @media only screen and (max-width: 768px) {
+  .common-section-title h1 {
+    font-size: 36px;
+  }
   .header-top-area {
     display: none;
   }
   .slider-area {
-    /* height: 110vh; */
+    height: 110vh;
     text-align: center;
   }
   .slider2.slider-area {
@@ -1825,7 +1915,7 @@
     font-size: 18px;
   }
   .blog_page_title h4 {
-    font-size: 20px;
+    font-size: 22px;
   }
   .slider3 .dreamit-slider-thumb-1 {
     position: inherit;
@@ -1879,7 +1969,7 @@
     font-size: 18px;
   }
   .elementor-about-title {
-    text-align: center;
+    text-align: left;
   }
   .about-name-title p {
     font-size: 10px;
@@ -1935,10 +2025,13 @@
     margin-left: 0;
   }
   .accordion a {
-    font-size: 14px;
+    font-size: 19px;
+    line-height: 1.6;
+    width: 90%;
   }
   .accordion li p {
     font-size: 11px;
+    padding: 0;
   }
   .dreamit-single-counter.style-two {
     top: 88px;
@@ -2117,13 +2210,13 @@
     margin-left: 13px;
   }
   .meta-blog span {
-    font-size: 13px;
+    font-size: 16px;
   }
   .meta-blog-right a {
     font-size: 14px;
   }
   .blog-page-title h2 {
-    font-size: 20px;
+    font-size: 32px;
   }
   .em-blog-content {
     padding: 26px 10px 13px 22px;
@@ -2185,7 +2278,7 @@
     text-align: center;
   }
   .contact-form-title h3 {
-    font-size: 24px;
+    font-size: 26px;
   }
   .row.testi-top {
     left: 0;
@@ -2544,59 +2637,12 @@
   .style-two .techno-single-counter-box2 {
     text-align: center;
   }
-}
-
-@media only screen and (max-width: 1200px) {
-  .common-title {
-    font-size: 42px;
+  h1 {
+    font-size: 38px;
   }
-  .wiec_nav_menu {
-    padding: 0 20px;
+  h2 {
+    font-size: 32px;
   }
-  .logo img {
-    max-width: 70px;
-  }
-  .countries-slider img,
-  .countries-slider h2 {
-    width: 280px;
-  }
-  .testimonial-content h2:before {
-    display: none;
-  }
-  .wiec-testimonial-thumb img {
-    width: 700px;
-  }
-  .country-page .more-info-section .info-card img {
-    width: 85px;
-  }
-  .country-page .more-info-section .info-card h3 {
-    font-size: 24px;
-  }
-}
-@media only screen and (max-width: 991px) {
-  .wiec-about-thumb {
-    display: flex;
-    justify-content: center;
-    right: 0;
-  }
-  .dreamit-section-title {
-    text-align: center !important;
-    margin-top: 40px;
-  }
-  .dreamit-section-title p {
-    margin-top: 30px;
-  }
-  .blog_area {
-    padding: 40px 0;
-  }
-  .contact-area {
-    background-color: transparent;
-  }
-  .contact-image {
-    display: none;
-  }
-}
-@media only screen and (max-width: 768px) {
   .content-section {
     padding: 60px 0;
   }
@@ -2606,9 +2652,9 @@
   p {
     font-size: 16px !important;
   }
-  .service-area {
-    padding: 0 0 70px;
-  }
+  /* .service-area {
+    padding: 30px 0 70px;
+  } */
   .logo img {
     max-width: 55px;
   }
@@ -2657,6 +2703,16 @@
     margin-top: 0;
     gap: 60px;
   }
+  .footer-middle .left-section {
+    width: 100%;
+  }
+  .wiec-logo {
+    justify-content: center;
+  }
+  .footer-inner {
+    display: flex;
+    justify-content: center;
+  }
   h4.widget-title {
     text-align: left;
   }
@@ -2669,9 +2725,6 @@
   .footer-middle .right-section {
     gap: 40px;
   }
-  .footer-socail-info2 p {
-    text-align: left;
-  }
   .menu-quick-link-content {
     text-align: left;
     gap: 40px;
@@ -2681,10 +2734,10 @@
     align-items: center;
   }
   .breadcrumb-content {
-    padding: 70px 0;
+    padding: 70px 20px;
   }
   .breadcrumb-area .breadcrumb-title1 h2 {
-    font-size: 55px;
+    font-size: 38px;
   }
   .country-page .content-section .text-section h2 span {
     font-size: 42px;
@@ -2708,5 +2761,97 @@
   }
   .row.subscribe-bg {
     padding: 40px 20px;
+  }
+  .about-page .counter-area .heading h1 {
+    font-size: 52px;
+  }
+  .about-area .common-section-title {
+    margin-top: 20px;
+  }
+  .other-news-section {
+    margin-bottom: 80px;
+  }
+  .sidebar-info-contents ul li,
+  .sidebar-info-contents ul li a {
+    font-size: 16px;
+  }
+  .book-appointment-section {
+    margin-bottom: 80px;
+  }
+  .book-appointment-section .common-title {
+    font-size: 46px;
+  }
+  .book-appointment-section .footer-inner {
+    justify-content: left;
+  }
+  .enroll-form {
+    padding: 40px 20px;
+  }
+  .course-page .course-content-section {
+    padding: 60px 0;
+  }
+  .course-page .course-content-section .left-content .exam-type {
+    margin-bottom: 20px;
+  }
+  .director-message-content .text-section {
+    margin-top: 20px;
+  }
+  .shadow-box ul li {
+    font-size: 16px;
+  }
+  .country-details-section .visa-details-section {
+    margin: 0;
+  }
+  .common-details-section .left-content {
+    padding: 20px;
+  }
+  .gallery-section .img-wrapper {
+    height: 300px;
+  }
+  .gallery-inner-section .gallery-container .gallery-item {
+    flex-basis: 95%;
+  }
+  .common-card-section .content {
+    margin-top: -110px;
+  }
+  .common-card-section .wrapper {
+    width: 100%;
+    display: block;
+    margin-inline: auto;
+    max-width: 400px;
+  }
+  .common-card-section .content h3 {
+    font-size: 24px;
+  }
+  .online-application-section .list li {
+    font-size: 16px;
+  }
+  .more-services-section p i {
+    font-size: 21px;
+  }
+  .more-services-section {
+    padding-top: 60px;
+  }
+  .common-details-section .subject-item p {
+    font-size: 18px;
+  }
+  .success-stories-item .content {
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-bottom-content-copy p {
+    font-size: 14px !important;
+  }
+  .scroll-area .go-top.active {
+    top: 98%;
+    right: 20px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .contact-us-single-box {
+    flex-wrap: wrap;
   }
 }

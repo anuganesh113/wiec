@@ -13,7 +13,6 @@
                     </div>
                     <div class="breadcrumb-title1">
                         <h2>IELTS Test Preparation</h2>
-                        <p>It is a test of English Language proficiency. It is jointly managed by the University of Cambridge ESOL Examinations, the British Council and IDP Education Australia.There are two versions of the IELTS: The Academic Version and the General Version.</p>
                     </div>
                 </div>
             </div>

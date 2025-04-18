@@ -17,7 +17,7 @@
     <div class="success-stories-section content-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-sm-12">
+                <div class="col-md-6">
                     <a href="success-stories-details.php" class="success-stories-item">
                         <div class="row">
                             <div class="col-lg-6 col-sm-12">
@@ -39,7 +39,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-6 col-sm-12">
+                <div class="col-md-6">
                     <a href="success-stories-details.php" class="success-stories-item">
                         <div class="row">
                             <div class="col-lg-6 col-sm-12">
@@ -61,7 +61,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-6 col-sm-12">
+                <div class="col-md-6">
                     <a href="success-stories-details.php" class="success-stories-item">
                         <div class="row">
                             <div class="col-lg-6 col-sm-12">
@@ -83,7 +83,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-6 col-sm-12">
+                <div class="col-md-6">
                     <a href="success-stories-details.php" class="success-stories-item">
                         <div class="row">
                             <div class="col-lg-6 col-sm-12">
@@ -105,7 +105,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-6 col-sm-12">
+                <div class="col-md-6">
                     <a href="success-stories-details.php" class="success-stories-item">
                         <div class="row">
                             <div class="col-lg-6 col-sm-12">
@@ -127,7 +127,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-6 col-sm-12">
+                <div class="col-md-6">
                     <a href="success-stories-details.php" class="success-stories-item">
                         <div class="row">
                             <div class="col-lg-6 col-sm-12">

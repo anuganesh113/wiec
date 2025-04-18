@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: visible;
 }
 /* Bootstrap class Override */
 
@@ -49,6 +50,10 @@ textarea {
   border-radius: 4px important;
 }
 
+li {
+  list-style: none;
+}
+
 /* Remove default button styles */
 button {
   all: unset;
@@ -61,6 +66,7 @@ button:hover {
 }
 img {
   max-width: 100%;
+  overflow: auto;
 }
 
 /* Normalize input styles */
@@ -155,7 +161,6 @@ html {
   color: #fff;
   position: relative;
   z-index: 1;
-  margin: 0 0 30px;
 }
 .breadcrumb-area .breadcrumb-title1 h2::before {
   position: absolute;
@@ -173,9 +178,10 @@ html {
   text-align: center;
   max-width: 600px;
   margin-inline: auto;
+  margin-top: 30px;
 }
 .breadcrumb-content {
-  padding: 100px 0;
+  padding: 100px 20px;
   text-align: center;
 }
 
@@ -880,9 +886,8 @@ span.flaticon-multiply i {
   flex-direction: column;
   gap: 20px;
 }
-.sidebar-info-contents .menu-list .btn-wrapper {
-  display: flex;
-  gap: 15px;
+.sidebar-info-contents .menu-list .btn-wrapper a {
+  margin-right: 7px;
 }
 .sidebar-info-contents ul .dropdown-list {
   margin-left: 30px;
@@ -892,6 +897,11 @@ span.flaticon-multiply i {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+.sidebar-info-contents .mobile-menu-list .btn-wrapper .btn {
+  width: 100%;
+  margin-bottom: 12px;
 }
 
 .sidebar-info-contents .mobile-menu-list .dropdown-list {
@@ -1932,7 +1942,7 @@ span.follow-us:before {
   margin-bottom: 35px;
 }
 .destination-area .common-section-title p {
-  width: 55%;
+  max-width: 500px;
   margin-inline: auto;
   /* margin-top: 10px; */
 }
@@ -1993,6 +2003,7 @@ span.color3 {
 }
 .common-section-title p {
   margin: 15px 0 0;
+  text-align: left;
 }
 .section-text {
   margin-top: 50px;
@@ -2266,7 +2277,6 @@ p.blog-text {
 <!-- ============================================================== -->*/
 
 .university-page ul#pills-tab {
-  border-bottom: 2px solid var(--primary-blue);
 }
 .dreamit-department-tab ul li a {
   display: inline-block;
@@ -2276,16 +2286,15 @@ p.blog-text {
 }
 li.nav-item {
   padding-right: 45px;
+  margin-top: 20px;
 }
 .university-page .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
   background-color: var(--primary-blue);
-  padding: 15px 25px;
   font-weight: 600;
   font-family: "Rajdhani";
   font-size: 18px;
-  border-radius: 5px 5px 0 0;
 }
 .university-page .tab-content-text p {
   margin-bottom: 30px;
@@ -3011,9 +3020,9 @@ li.nav-item {
 <!-- ============================================================== -->
 <!-- Start service area Css -->
 <!-- ============================================================== -->*/
-.service-area {
+/* .service-area {
   padding: 100px 0 70px;
-}
+} */
 .service-area .common-section-title h1 {
   text-align: left;
 }
@@ -3967,10 +3976,16 @@ li.nav-item {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  padding: 90px 0 85px;
+  /* padding: 90px 0 85px; */
+}
+.common-section-title h5 {
+  text-align: left;
 }
 .about-area .common-section-title h1 {
   text-align: left;
+}
+.about-area .common-section-title h5:before {
+  left: 90px;
 }
 .wiec-about-thumb {
   position: relative;
@@ -4993,8 +5008,8 @@ li.current_menu_item:before {
 .single_university:hover .single_university_thumb:before {
   transform: scale(1);
 }
-.single_university:hover .single_university_thumb img {
-  transform: scale(1.1);
+.single_university:hover .single_university_thumb {
+  transform: translateY(-10px);
 }
 .single_university:hover .single_university_content {
   opacity: 1;
@@ -8059,6 +8074,13 @@ h4.widget-title span {
   font-size: 16px;
   color: #fff;
   margin-bottom: 33px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.footer-socail-info p i,
+.footer-socail-info2 p i {
+  font-size: 21px;
 }
 .footer-socail-info2 p {
   color: #fff;
@@ -8093,18 +8115,15 @@ h4.widget-title span {
   margin-bottom: 30px;
   background: #f3f7fa;
   padding: 32px 30px 32px;
+  display: flex;
 }
 .contact-us-icon {
-  float: left;
   margin-right: 25px;
   margin-top: 25px;
 }
 .contact-us-icon i {
   font-size: 52px;
   color: var(--primary-blue);
-}
-.contact-us-title {
-  overflow: hidden;
 }
 .contact-us-title h2 {
   font-size: 24px;
@@ -8230,7 +8249,8 @@ form#dreamit-form h4 {
 }
 .contact-form-title h3 {
   font-size: 35px;
-  line-height: 1;
+  line-height: 1.4;
+  max-width: 500px;
 }
 .style-three form#dreamit-form {
   padding: 35px 30px 48px;
@@ -8814,7 +8834,7 @@ button:focus {
   border-bottom: 1px solid #d9e5e8;
   position: relative;
   list-style: none;
-  padding: 0 0 11px;
+  padding: 20px 0;
 }
 .accordion li p {
   display: none;
@@ -9855,8 +9875,8 @@ div#particles .slider7.slider-area {
   padding-bottom: 80px;
 }
 .mission-vision-section img {
-  width: 50%;
   margin-inline: auto;
+  object-fit: cover;
   display: flex;
   border-radius: 30px;
   height: 400px;
@@ -10053,6 +10073,7 @@ td {
 .course-page .course-content-section .right-content ul li {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 10px;
   margin-bottom: 5px;
 }
@@ -10178,6 +10199,7 @@ td {
   position: relative;
   outline: 3px solid var(--primary-blue);
   outline-offset: 15px;
+  overflow: hidden;
 }
 .director-message-section .director-message-content .name {
   text-align: center;
@@ -10230,6 +10252,7 @@ td {
   height: 100%;
   object-fit: cover;
   border-radius: 20px;
+  overflow: hidden;
 }
 .gallery-section .img-wrapper .text-overlay {
   position: absolute;
@@ -10274,6 +10297,7 @@ td {
 .gallery-inner-section .gallery-container .gallery-item img {
   height: 350px;
   object-fit: cover;
+  cursor: pointer;
 }
 .book-appointment-section {
   background-color: #f2f9ff;
@@ -10283,7 +10307,7 @@ td {
 .book-appointment-section .common-title {
   text-align: left;
   font-size: 68px;
-  max-width: 95%;
+  max-width: 550px;
   margin-bottom: 20px;
 }
 .book-appointment-section p {
@@ -10330,7 +10354,7 @@ td {
   row-gap: 30px;
 }
 .contact-us-area .common-section-title h1 {
-  max-width: 50%;
+  max-width: 500px;
   margin-inline: auto;
 }
 
@@ -10362,7 +10386,7 @@ td {
   border-radius: 20px;
 }
 .success-stories-item:hover {
-  transform: translateY(-20px);
+  transform: translateY(-10px);
   box-shadow: 2px 2px 3px var(--primary-blue);
 }
 .success-stories-item img {
@@ -10428,8 +10452,10 @@ td {
 .event-details-page .post-categories {
   float: none;
 }
-
-.events-page .event-details-section .meta-blog .date i {
+.event-details-page .event-details-section .meta-blog p {
+  color: var(--primary-blue);
+}
+.event-details-page .event-details-section .meta-blog p i {
   margin-right: 10px !important;
 }
 
@@ -10450,19 +10476,31 @@ td {
   margin-left: 10px;
   margin-top: 10px;
 }
+.common-card-section .wrapper {
+  display: inline-block;
+  margin-top: 30px;
+}
+.common-card-section .wrapper:hover {
+  transform: translateY(-20px);
+  transition: 0.4s;
+}
 .common-card-section .content {
-  margin-top: -180px;
-  padding: 30px;
+  position: relative;
+  margin-top: -114px;
+  background: linear-gradient(45deg, #141049, #71252500);
+  padding: 10px 20px;
+  z-index: 11;
 }
 .common-card-section .content h3 {
   color: #fff;
   margin-bottom: 10px;
+  font-size: 28px;
 }
 .common-card-section .content a {
   color: #fff;
 }
 .common-card-section img {
-  border-radius: 20px;
+  height: 100%;
 }
 .common-card-section .content a {
   display: flex;
@@ -10485,14 +10523,14 @@ td {
   font-size: 17px;
   margin-bottom: 20px;
 }
-
+.shadow-box h1,
 .shadow-box h2,
 .shadow-box ul {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .shadow-box h2 {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .shadow-box ul li {
@@ -10512,37 +10550,30 @@ td {
   left: -30px;
 }
 
-.sop-bank-page .common-card-section .content {
-  margin-top: -150px;
-}
-
 .sop-bank-page .common-card-section .wrapper img {
   width: 375px;
 }
-/* Ensure no parent overflows */
-.container, .row, .col-lg-4, .col-lg-8 {
-  overflow: visible !important;
-}
-/* Flexbox fix for Bootstrap */
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-.col-lg-4 {
-  align-self: flex-start; /* Critical for sticky */
-}
+
 .common-details-section {
   margin-right: 40px;
 }
+.common-details-section .main-row {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  overflow: visible;
+}
 .common-details-section .left-content {
-  margin-right: 40px;
+  margin-right: 20px;
   border: 1px solid #e9e9e9;
-  padding: 40px;
+  padding: 30px;
+  overflow: visible;
 }
 .common-details-section .right-content {
+  flex: 0 0 30%;
   position: sticky;
-  top: 40px; /* or 0 if you want it flush with top */
-  /* align-self: flex-start; */
+  top: 120px;
+  height: fit-content;
 }
 .common-details-section .subject-item {
   padding: 30px;
@@ -10563,8 +10594,6 @@ td {
 }
 .sop-resources-section {
   background-color: #f2f9ff;
-  /* position: sticky;
-  top: 0; */
   padding: 40px;
 }
 .sop-resources-section h2 {
@@ -10581,4 +10610,35 @@ td {
 .sop-resources-section ul li i {
   margin-right: 15px;
   color: var(--primary-blue);
+}
+.country-details-section .inner-list li {
+  margin-left: 0;
+}
+.country-details-section .inner-list li::before {
+  content: "";
+}
+
+.country-details-section .visa-details-section {
+  margin: 40px;
+}
+.country-details-section .visa-details-section p,
+.country-details-section .visa-details-section ul {
+  margin-top: 20px;
+}
+.country-details-section .visa-details-section .title {
+  font-size: 19px;
+}
+.country-details-section .visa-details-section .col-6 {
+  border-bottom: 1px solid #d6d6d6;
+}
+/**
+ * Adds margin-top to the subscription area.
+ *
+ * The subscription area is the part of the page where the user can subscribe
+ * to the newsletter. It is located at the bottom of the page.
+ *
+ * @since 1.0.0
+ */
+.subscribe-area {
+  margin-top: 40px;
 }

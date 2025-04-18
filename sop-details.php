@@ -24,7 +24,7 @@
     <div class="common-details-section content-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-xl-8">
                     <div class="left-content">
                         <h1 class="mb-3">The Best SOP For Science</h1>
                         <p class="mb-5">Science The Science field is very large it incorporates physical, Biomedical and Chemical Science. Specialization include: Astronomy, Astrophysics, Biochemistry, Biomedical Science, Geography, Geology, Mathematical Science, Physics, Zoology etc.</p>
@@ -64,7 +64,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-xl-4">
                     <div class="right-content">
                         <div class="sop-resources-section">
                             <div class="common-section-title">

@@ -22,7 +22,7 @@
         </div>
     </div>
 
-    <div class="about-area">
+    <div class="about-area content-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12">
@@ -267,8 +267,7 @@
                     <div class="contact-form-box style-three upper2">
                         <div class="contact-form-title white">
                             <h5>Contact</h5>
-                            <h3>FEEL FREE TO CONTACT</h3>
-                            <h3>US FOR MORE INFO</h3>
+                            <h3>FEEL FREE TO CONTACT US FOR MORE INFO</h3>
                         </div>
                         <form action="https://formspree.io/f/myyleorq" method="POST" id="dreamit-form">
                             <div class="row">

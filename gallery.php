@@ -13,7 +13,7 @@
                     </div>
                     <div class="breadcrumb-title1">
                         <h2>Gallery</h2>
-                        <p>Explore a curated collection of our favorite moments, projects, and highlights. Each image captures the creativity, passion, and hard work that define who we are. </p>
+                        <p>Explore a curated collection of our favorite moments, projects, and highlights.</p>
                     </div>
                 </div>
             </div>
@@ -23,7 +23,7 @@
     <div class="gallery-section content-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <a href="gallery-inner.php">
                         <div class="img-wrapper">
                             <img src="assets/images/about/main.jpg" alt="">
@@ -35,7 +35,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <a href="gallery-inner.php">
                         <div class="img-wrapper">
                             <img src="assets/images/about/main.jpg" alt="">
@@ -47,7 +47,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <a href="gallery-inner.php">
                         <div class="img-wrapper">
                             <img src="assets/images/about/main.jpg" alt="">
@@ -59,7 +59,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <a href="gallery-inner.php">
                         <div class="img-wrapper">
                             <img src="assets/images/about/main.jpg" alt="">
@@ -71,7 +71,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <a href="gallery-inner.php">
                         <div class="img-wrapper">
                             <img src="assets/images/about/main.jpg" alt="">
@@ -83,7 +83,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <a href="gallery-inner.php">
                         <div class="img-wrapper">
                             <img src="assets/images/about/main.jpg" alt="">

@@ -24,7 +24,7 @@
     <div class="sop-details-inner-section common-details-section content-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-xl-8">
                     <div class="left-content">
                         <h2 class="mb-3">Statement of Purpose</h2>
                         <div class="sop-content">
@@ -47,7 +47,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-xl-4">
                     <div class="right-content">
                         <div class="sop-resources-section">
                             <div class="common-section-title">

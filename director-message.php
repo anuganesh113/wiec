@@ -23,7 +23,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="director-message-content">
+                    <div class="director-message-content shadow-box">
                         <div class="img-wrapper">
                             <img src="assets/images/director.jpg" alt="">
                         </div>

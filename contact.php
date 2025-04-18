@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-sm-12">
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="contact-us-single-box">
@@ -73,7 +73,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-8 col-md-6 col-sm-12">
+                <div class="col-lg-8 col-sm-12">
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="contact-form-box style-two">

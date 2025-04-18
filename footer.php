@@ -8,7 +8,7 @@
         <div class="subscribe-content white">
           <div class="subscribe-title">
             <h1>Subscribe our newsletter</h1>
-            <p>Please Subscribe our news letter and and get update.</p>
+            <p>Please Subscribe our newsletter to get updated.</p>
           </div>
         </div>
       </div>
@@ -45,35 +45,43 @@
 
         <div class="footer-widget-address">
           <div class="footer-inner">
-            <div class="footer-socail-icon">
+            <!-- <div class="footer-socail-icon">
               <i class="flaticon-call"></i>
-            </div>
+            </div> -->
             <div class="footer-socail-info">
               <p>
+                <i class="flaticon-call"></i>
                 <span> 01-4534282</span>
               </p>
             </div>
           </div>
           <div class="footer-inner">
-            <div class="footer-socail-icon">
+            <!-- <div class="footer-socail-icon">
               <i class="icon flaticon-email"></i>
-            </div>
+            </div> -->
             <div class="footer-socail-info">
-              <p>info@wieducation.edu.np</p>
+              <p>
+                <i class="icon flaticon-email"></i>
+                info@wieducation.edu.np
+              </p>
             </div>
           </div>
           <div class="footer-inner">
-            <div class="footer-socail-icon">
+            <!-- <div class="footer-socail-icon">
               <i class="icon flaticon-placeholder-1"></i>
-            </div>
+            </div> -->
             <div class="footer-socail-info2">
-              <p>Putalisadak 29, Kathmandu, Nepal, 23785</p>
+              <p>
+                <i class="icon flaticon-placeholder-1"></i>
+
+                Putalisadak 29, Kathmandu, Nepal, 23785
+              </p>
             </div>
           </div>
         </div>
         <div class="company_icon">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/wieducation"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/wieducation/"><i class="fab fa-instagram"></i></a>
           <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
         </div>
       </div>
@@ -135,10 +143,10 @@
     </div>
   </div>
   <div class="row footer-bottom">
-    <div class="col-lg-12 col-md-6">
+    <div class="col-lg-12">
       <div class="footer-bottom-content">
         <div class="footer-bottom-content-copy">
-          <p>Copyright © 2024. All rights reserved.</p>
+          <p>Copyright &copy; <span id="current-year" style="color: #fff"></span> All rights reserved. WIEC. Website By <a href="https://craftalaya.com/" target="_blank" style="color: #4a81cc">Crafalaya Tech</a></p>
         </div>
       </div>
     </div>
@@ -246,6 +254,12 @@
 
 <!-- Odometer js -->
 
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const yearSpan = document.getElementById("current-year");
+    yearSpan.textContent = new Date().getFullYear();
+  });
+</script>
 <script>
   $(document).ready(function() {
     $("#bar3").barfiller({

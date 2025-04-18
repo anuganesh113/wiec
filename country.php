@@ -39,7 +39,7 @@
         <h2 class="common-title">More Information about <span>USA</span></h2>
         <div class="row">
           <div class="col-lg-4 col-md-6">
-            <a href="">
+            <a href="document-checklist.php">
               <div class="info-card">
                 <img src="assets/images/gif/approved.gif" alt="">
                 <h3>Document Checklist <i class="fa-solid fa-angles-right"></i></h3>
@@ -47,7 +47,7 @@
             </a>
           </div>
           <div class="col-lg-4 col-md-6">
-            <a href="">
+            <a href="education-system.php">
               <div class="info-card">
                 <img src="assets/images/gif/meeting.gif" alt="">
                 <h3>Education System <i class="fa-solid fa-angles-right"></i></h3>
@@ -55,7 +55,7 @@
             </a>
           </div>
           <div class="col-lg-4 col-md-6">
-            <a href="">
+            <a href="university.php">
               <div class="info-card">
                 <img src="assets/images/gif/university.gif" alt="">
                 <h3>College & University <i class="fa-solid fa-angles-right"></i></h3>
@@ -63,7 +63,7 @@
             </a>
           </div>
           <div class="col-lg-4 col-md-6">
-            <a href="">
+            <a href="fast-facts.php">
               <div class="info-card">
                 <img src="assets/images/gif/list.gif" alt="">
                 <h3>Fast Facts <i class="fa-solid fa-angles-right"></i></h3>

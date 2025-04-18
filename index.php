@@ -19,8 +19,8 @@
               support—your journey starts here!
             </p>
             <div class="slider-button">
-              <a href="#">Get Started<i class="flaticon-right-arrow"></i></a>
-              <a class="slider-button3" href="#">LEARN MORE <i class="flaticon-right-arrow"></i></a>
+              <a href="book-appointment.php">GET STARTED<i class="flaticon-right-arrow"></i></a>
+              <a class="slider-button3" href="about.php">LEARN MORE <i class="flaticon-right-arrow"></i></a>
             </div>
           </div>
         </div>
@@ -72,42 +72,6 @@
       </div>
     </div>
   </div>
-  <!-- <div class="slider-area  d-flex align-items-center">
-        <div class="container">
-          <div class="row d-flex align-items-center slider">
-            <div class="col-lg-5 col-md-6 col-sm-12">
-              <div class="dreamit-slider-thumb-1">
-                <img src="assets/images/slider/slider2.png" alt="" />
-              </div>
-            </div>
-            <div class="col-lg-7 col-md-6 col-sm-12">
-              <div class="slider-content text-right">
-                <h4>// Welcome to WI Education</h4>
-                <h1>Your Success, Our <span>Mission</span></h1>
-                <p>
-                  From application to admission, we make your education journey
-                  smooth and stress-free.
-                </p>
-                <div class="slider-button">
-                  <a href="#"
-                    >Get Started<i class="flaticon-right-arrow"></i
-                  ></a>
-                  <a class="slider-button3" href="#"
-                    >LEARN MORE <i class="flaticon-right-arrow"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-            <div class="slider-socail-icon">
-              <a href="#"><i class="fab fa-facebook-f"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-pinterest-p"></i></a>
-              <span class="follow-us">Follow Us:</span>
-            </div>
-          </div>
-        </div>
-      </div> -->
 </div>
 <!--==================================================-->
 <!--End wiec slider Area  -->
@@ -116,7 +80,7 @@
 <!--==================================================-->
 <!-- Start wiec service Area -->
 <!--==================================================-->
-<div class="service-area">
+<div class="service-area content-section">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-12 padding-left">
@@ -255,7 +219,7 @@
 <!--==================================================-->
 <!-- Start wiec about Area -->
 <!--==================================================-->
-<div class="about-area">
+<div class="about-area content-section">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 col-md-12 col-sm-12">
@@ -355,72 +319,28 @@
         </div>
       </div>
       <div class="col-lg-12 col-sm-12">
-        <!-- <div class="countries-slider-section row">
-              <div class="countries-slider owl-carousel">
-                <div class="col-lg-3 col-sm-4 m-sm-1 m-md-0">
-                  <div class="img-wrapper">
-                    <img src="assets/images/slider/us.jpg" alt="" />
-                  </div>
-                  <h2>USA</h2>
-                </div>
-                <div class="col-lg-3 col-sm-4 m-sm-1 m-md-0">
-                  <div class="img-wrapper">
-                    <img src="assets/images/slider/australia.jpg" alt="" />
-                  </div>
-                  <h2>AUSTRALIA</h2>
-                </div>
-                <div class="col-lg-3 col-sm-4m-sm-1 m-md-0">
-                  <div class="img-wrapper">
-                    <img src="assets/images/slider/canada.jpg" alt="" />
-                  </div>
-                  <h2>CANADA</h2>
-                </div>
-                <div class="col-lg-3 col-sm-4">
-                  <div class="img-wrapper">
-                    <img src="assets/images/slider/uk.jpg" alt="" />
-                  </div>
-                  <h2>UK</h2>
-                </div>
-                <div class="col-lg-3 col-sm-4">
-                  <div class="img-wrapper">
-                    <img src="assets/images/slider/japan.jpg" alt="" />
-                  </div>
-                  <h2>JAPAN</h2>
-                </div>
-              </div>
-            </div> -->
         <div class="countries-slider-section row">
           <div class="countries-slider owl-carousel">
-            <div class="slider-item">
-              <div class="img-wrapper">
-                <img src="assets/images/slider/us.jpg" alt="" />
-              </div>
+            <a href="country.php" class="slider-item">
+              <img src="assets/images/slider/us.jpg" alt="" />
               <h2>USA</h2>
-            </div>
-            <div class="slider-item">
-              <div class="img-wrapper">
-                <img src="assets/images/slider/australia.jpg" alt="" />
-              </div>
+            </a>
+            <a href="country.php" class="slider-item">
+              <img src="assets/images/slider/australia.jpg" alt="" />
               <h2>AUSTRALIA</h2>
-            </div>
-            <div class="slider-item">
-              <div class="img-wrapper">
-                <img src="assets/images/slider/canada.jpg" alt="" />
-              </div>
+            </a>
+            <a href="country.php" class="slider-item">
+              <img src="assets/images/slider/canada.jpg" alt="" />
               <h2>CANADA</h2>
-            </div>
-            <div class="slider-item">
-              <div class="img-wrapper">
-                <img src="assets/images/slider/uk.jpg" alt="" />
-              </div>
+            </a>
+            <a href="country.php" class="slider-item">
+              <img src="assets/images/slider/uk.jpg" alt="" />
               <h2>UK</h2>
-            </div>
-            <div class=" slider-item">
-              <div class="img-wrapper">
-                <img src="assets/images/slider/japan.jpg" alt="" />
-              </div>
+            </a>
+            <a href="country.php" class="slider-item">
+              <img src="assets/images/slider/japan.jpg" alt="" />
               <h2>JAPAN</h2>
-            </div>
+            </a>
           </div>
         </div>
       </div>
@@ -747,8 +667,7 @@
         <div class="contact-form-box style-three upper2">
           <div class="contact-form-title white">
             <h5>Contact</h5>
-            <h3>FEEL FREE TO CONTACT</h3>
-            <h3>US FOR MORE INFO</h3>
+            <h3>FEEL FREE TO CONTACT US FOR MORE INFO</h3>
           </div>
           <form action="https://formspree.io/f/myyleorq" method="POST" id="dreamit-form">
             <div class="row">

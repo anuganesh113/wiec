@@ -146,11 +146,10 @@
       <div class="col-lg-12">
         <nav class="top-nav-section">
           <ul>
-            <!-- <li><a href="gallery.php">gallery</a></li> -->
             <li><a href="blog.php">news & updates</a></li>
             <li><a href="contact.php">contact</a></li>
             <li>
-              <a href="" data-toggle="modal" data-target="#exampleModal"><i class="fa-solid fa-user mr-2"></i>login</a>
+              <a href="login.php" data-toggle="modal" data-target="#exampleModal"><i class="fa-solid fa-user mr-2"></i>login</a>
               <!--Login Modal -->
               <div class="login-modal modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
@@ -415,19 +414,22 @@
                     </li>
                   </ul>
                   <li><a href="university.php">University</a></li>
-                  <!-- <li><a href="gallery.php">Gallery</a></li> -->
                   <li><a href="contact.php">Contact</a></li>
                 </div>
                 <li><a href="success-stories.php">Success Stories</a></li>
-                <li><a href="">Resources</a></li>
+                <li><a href="resources.php">Resources</a></li>
                 <li><a href="events.php">Events</a></li>
                 <li><a href="online-application.php">Online Application</a></li>
                 <li><a href="how-to-obtain-visa.php">How to Obtain Visa</a></li>
                 <li><a href="sop-bank.php">SOP Bank</a></li>
                 <div class="mobile-menu-list d-xl-none">
                   <div class="btn-wrapper">
-                    <a href="#" class="btn btn-primary">Book an Appointment</a>
-                    <a href="#" class="btn btn-primary">Login</a>
+                    <a href="book-appointment.php">
+                      <div class="btn btn-primary">Book an Appointment</div>
+                    </a>
+                    <a href="login.php">
+                      <div class="btn btn-primary">Login</div>
+                    </a>
                   </div>
                 </div>
               </ul>

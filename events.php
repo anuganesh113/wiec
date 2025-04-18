@@ -8,7 +8,7 @@
                 <div class="breadcrumb-content text-center">
                     <div class="breadcrumb-title1">
                         <h2>Upcoming Events</h2>
-                        <p>Get ready for a slate of can’t-miss events—from expert workshops and lively mixers to inspiring performances. Mark your calendar and join us!</p>
+                        <p>Get ready for a slate of can’t-miss events—from expert workshops and lively mixers to inspiring performances.</p>
                     </div>
                 </div>
             </div>

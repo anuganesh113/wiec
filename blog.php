@@ -8,7 +8,7 @@
                 <div class="breadcrumb-content text-center">
                     <div class="breadcrumb-title1">
                         <h2>News & Updates</h2>
-                        <p>Stay informed with the latest news and updates from our team. Here, you'll find important announcements, upcoming features, recent changes, and everything else you need to stay in the loop. Check back often to stay up to date!</p>
+                        <p>Stay informed with the latest news and updates from our team. Check back often to stay up to date!</p>
                     </div>
                 </div>
             </div>

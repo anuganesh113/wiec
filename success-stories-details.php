@@ -73,7 +73,7 @@
         <div class="container">
             <h2 class="common-title">Other <span>Success Stories</span></h2>
             <div class="row">
-                <div class="col-lg-6 col-sm-12">
+                <div class="col-md-6">
                     <a href="success-stories-details.php" class="success-stories-item">
                         <div class="row">
                             <div class="col-lg-6 col-sm-12">
@@ -95,7 +95,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-6 col-sm-12">
+                <div class="col-md-6">
                     <a href="success-stories-details.php" class="success-stories-item">
                         <div class="row">
                             <div class="col-lg-6 col-sm-12">
@@ -117,7 +117,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-6 col-sm-12">
+                <div class="col-md-6">
                     <a href="success-stories-details.php" class="success-stories-item">
                         <div class="row">
                             <div class="col-lg-6 col-sm-12">
@@ -139,7 +139,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-6 col-sm-12">
+                <div class="col-md-6">
                     <a href="success-stories-details.php" class="success-stories-item">
                         <div class="row">
                             <div class="col-lg-6 col-sm-12">
@@ -177,8 +177,7 @@
                     <div class="contact-form-box style-three upper2">
                         <div class="contact-form-title white">
                             <h5>Contact</h5>
-                            <h3>FEEL FREE TO CONTACT</h3>
-                            <h3>US FOR MORE INFO</h3>
+                            <h3>FEEL FREE TO CONTACT US FOR MORE INFO</h3>
                         </div>
                         <form action="https://formspree.io/f/myyleorq" method="POST" id="dreamit-form">
                             <div class="row">
