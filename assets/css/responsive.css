@@ -1,4 +1,4 @@
-/* Normal desktop :1700px. */
+--/* Normal desktop :1700px. */
 @media (min-width: 1501px) and (max-width: 1700px) {
   .top-slider-icon {
     margin-left: 5px;
@@ -1683,6 +1683,12 @@
   .success-stories-item .content p.name {
     font-size: 24px;
   }
+  .countries-slider .custom-next {
+    right: -24px;
+  }
+  .countries-slider .custom-prev {
+    left: -24px;
+  }
 }
 @media only screen and (max-width: 991px) {
   .wiec-about-thumb {
@@ -1730,6 +1736,15 @@
   }
   .success-stories-item .content {
     text-align: center;
+  }
+  .university-details-section .description-section .content {
+    margin: 60px 0 0;
+  }
+  .university-details-section .ways-to-study-section p {
+    font-size: 19px !important;
+  }
+  .slider-button3 {
+    margin-top: 10px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -2847,6 +2862,32 @@
   .scroll-area .go-top.active {
     top: 98%;
     right: 20px;
+  }
+  .university-details-section .ways-to-study-section .common-title {
+    font-size: 46px;
+  }
+  .university-details-section .ways-to-study-section p {
+    font-size: 17px !important;
+  }
+  .university-details-section .ways-to-study-section .ways-section {
+    margin-top: 20px;
+  }
+  .slider-content {
+    padding-top: 60px;
+  }
+  .slick-slide img {
+    padding: 0 12px;
+  }
+  .countries-slider .custom-next {
+    right: 0;
+  }
+  .countries-slider .custom-prev {
+    left: 0;
+  }
+}
+@media only screen and (max-width: 420px) {
+  a.slider-button3 {
+    margin: 15px 0 0 0 !important;
   }
 }
 

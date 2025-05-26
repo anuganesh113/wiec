@@ -1,3 +1,30 @@
+//Script for dropdown menu
+
+// Select all dropdown triggers and their corresponding lists
+const dropdownTriggers = document.querySelectorAll(".dropdown");
+
+// Loop through each dropdown trigger
+dropdownTriggers.forEach((trigger) => {
+  // Find the dropdown list associated with this trigger
+  // (assuming it's the next sibling element)
+  const dropdownList = trigger.nextElementSibling;
+
+  // Add click event listener
+  trigger.addEventListener("click", (e) => {
+    e.preventDefault(); // Prevent default link behavior if needed
+
+    // Close all other dropdowns first (optional)
+    document.querySelectorAll(".dropdown-list.active").forEach((activeList) => {
+      if (activeList !== dropdownList) {
+        activeList.classList.remove("active");
+      }
+    });
+
+    // Toggle the current dropdown
+    dropdownList.classList.toggle("active");
+  });
+});
+
 (function ($) {
   "use strict";
   // Mobile Menu

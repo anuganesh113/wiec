@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: visible;
+  /* overflow-x: auto; */
 }
 /* Bootstrap class Override */
 
@@ -302,6 +302,7 @@ h2 span {
 ul.nav_scroll li i {
   font-size: 15px;
   display: inline-block;
+  margin-left: 3px;
 }
 .wiec_menu > ul > li > a:hover {
   background-position: 0%;
@@ -1079,7 +1080,7 @@ ul.social-box li a:hover {
 .slider-button a {
   background: var(--primary-blue);
   padding: 14px 32px;
-  color: #fff;
+  color: #fff !important;
   text-transform: uppercase;
   font-size: 18px;
   display: inline-block;
@@ -1139,7 +1140,7 @@ a.slider-button3:before {
   transform: scale(1);
 }
 .slider-button a:hover {
-  color: var(--primary-blue);
+  color: var(--primary-blue) !important;
   border: 1px solid #fff;
   box-shadow: 5px 5px 10px #499bb1;
 }
@@ -2003,7 +2004,7 @@ span.color3 {
 }
 .common-section-title p {
   margin: 15px 0 0;
-  text-align: left;
+  /* text-align: left; */
 }
 .section-text {
   margin-top: 50px;
@@ -4914,10 +4915,12 @@ li.current_menu_item:before {
 }
 /* Single Portfolio */
 .single_university {
+  display: inline-block;
   overflow: hidden;
   margin-bottom: 30px;
   transition: 0.5s;
   text-align: center;
+  border: 1px solid var(--primary-blue);
 }
 .single_university_thumb {
   transition: 0.5s;
@@ -4926,10 +4929,13 @@ li.current_menu_item:before {
 }
 .single_university_thumb img {
   width: 100%;
-  height: 270px;
+  height: auto;
   display: block;
   transform: scale(1);
   transition: 0.5s;
+  height: 200px;
+  object-fit: contain;
+  padding: 15px;
 }
 /* .single_university_thumb:before {
   position: absolute;
@@ -6497,6 +6503,7 @@ span.fill.my-class2 {
   width: 330px;
   height: 350px;
   border-radius: 50px;
+  object-fit: cover;
 }
 
 .countries-slider h2 {
@@ -6515,19 +6522,21 @@ span.fill.my-class2 {
   background: none;
   position: absolute;
   top: 160px;
-  left: -44px;
+  left: 0;
   border: none;
   font-size: 28px;
   color: #29499e;
+  z-index: 99;
 }
 .countries-slider .custom-next {
   background: none;
   position: absolute;
   top: 160px;
-  right: -24px;
+  right: 0;
   border: none;
   font-size: 28px;
   color: #29499e;
+  z-index: 99;
 }
 
 /* .countries-slider .slick-next {
@@ -7161,6 +7170,8 @@ span.monthp {
 }
 .single_blog_thumb img {
   width: 100%;
+  height: 250px;
+  object-fit: cover;
 }
 .single_blog_content {
   padding: 22px 30px 30px 30px;
@@ -7180,7 +7191,7 @@ span.monthp {
   bottom: 100px;
 }
 .post-categories {
-  float: left;
+  /* float: left; */
   margin-right: 25px;
 }
 .post-categories a {
@@ -7200,7 +7211,7 @@ span.monthp {
   color: #616161;
   font-style: italic;
   transition: 0.5s;
-  float: right;
+  margin-top: 5px;
 }
 .wiec_blog_meta a i {
   display: inline-block;
@@ -7257,6 +7268,9 @@ span.monthp {
 }
 .blog_button:hover:before {
   transform: scale(1);
+}
+.blog_button a i {
+  color: #fff;
 }
 .blog_button i:hover {
   color: #fff;
@@ -7788,6 +7802,7 @@ span.monthp {
   border: 0;
   background: #232434;
   color: #fff;
+  margin-right: -2px;
 }
 /*style two*/
 .style-two.subscribe-area {
@@ -9789,9 +9804,14 @@ div#particles .slider7.slider-area {
   font-size: 18px;
   line-height: 32px;
 }
+.country-page .content-section .img-section {
+  display: flex;
+  justify-content: center;
+}
 .country-page .content-section .img-section img {
   display: flex;
   border-radius: 30px;
+  width: 100%;
 }
 .country-page .more-info-section {
   background: #f2f9ff;
@@ -9955,15 +9975,104 @@ div#particles .slider7.slider-area {
 }
 .university-menu-section .single_university_thumb p {
   padding: 10px;
-  border: 1px solid var(--primary-blue);
   height: 76px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top: none;
   font-size: 17px;
   color: var(--primary-blue);
+  border-top: 1px solid var(--primary-blue);
+  margin-bottom: 0;
 }
+
+.university-details-section .description-section img {
+  border-radius: 20px;
+}
+
+.university-details-section .description-section .content {
+  margin: 100px 0 0 60px;
+  font-size: 18px;
+}
+.university-details-section .university-button a {
+  display: inline-block;
+  margin-top: 5px;
+  color: var(--primary-blue);
+  font-size: 18px;
+}
+.university-details-section .university-button a i {
+  margin-left: 5px;
+}
+.university-details-section .university-button a:hover i {
+  transition: 0.4s;
+  margin-left: 10px;
+}
+.university-details-section .ways-to-study-section {
+  background-color: #f2f9ff;
+}
+.university-details-section .ways-to-study-section .common-title {
+  text-align: left;
+  font-size: 64px;
+}
+.university-details-section .ways-to-study-section .ways-section {
+  margin-top: 60px;
+}
+.university-details-section .ways-to-study-section .ways-section .number {
+  background: var(--primary-blue);
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 46px;
+  padding: 15px;
+  font-weight: 600;
+  border-radius: 5px;
+  margin: 10px 20px 10px 0;
+}
+.university-details-section .ways-to-study-section .ways-section p {
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.university-details-section .courses-section .sub-title {
+  font-size: 18px;
+  text-align: center;
+  max-width: 700px;
+  margin-inline: auto;
+}
+.university-details-section .courses-section .content {
+  margin-top: 40px;
+}
+.university-details-section .courses-section .content li {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.university-details-section .courses-section .content li i {
+  color: var(--primary-blue);
+  margin-right: 10px;
+}
+
+.university-details-section .requirements-section {
+  background-color: #f2f9ff;
+}
+.university-details-section .requirements-section .content .row {
+  padding: 30px 0;
+}
+.university-details-section .requirements-section .content .row:nth-child(1) {
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.university-details-section .requirements-section .content p {
+  font-size: 18px;
+}
+.university-details-section .requirements-section .content h2 {
+  margin-bottom: 10px;
+}
+
 .more-services-section {
   padding-top: 80px;
 }
@@ -9985,7 +10094,7 @@ div#particles .slider7.slider-area {
   row-gap: 30px;
 }
 .course-section .course-item h3 {
-  margin-bottom: 15px;
+  margin: 15px 0;
   font-size: 34px;
 }
 .course-section .course-item a {
@@ -9996,6 +10105,11 @@ div#particles .slider7.slider-area {
   color: var(--primary-blue);
   margin-top: 7px;
   transition: 0.5s;
+}
+.course-section .course-item img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .course-page .course-content-section {
@@ -10190,6 +10304,7 @@ td {
   justify-content: center;
   margin-bottom: 30px;
   position: relative;
+  margin-top: 30px;
 }
 
 .director-message-section .director-message-content img {
@@ -10631,14 +10746,7 @@ td {
 .country-details-section .visa-details-section .col-6 {
   border-bottom: 1px solid #d6d6d6;
 }
-/**
- * Adds margin-top to the subscription area.
- *
- * The subscription area is the part of the page where the user can subscribe
- * to the newsletter. It is located at the bottom of the page.
- *
- * @since 1.0.0
- */
+
 .subscribe-area {
   margin-top: 40px;
 }

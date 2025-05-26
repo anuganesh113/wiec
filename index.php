@@ -6,7 +6,7 @@
 <!-- Start wiec slider Area -->
 <!--==================================================-->
 <div class="slider_list owl-carousel">
-  <div class="slider-area align-items-center d-flex" style="background: url(assets/images/slider/slider-bg1.jpg)">
+  <div class="slider-area align-items-center d-flex" style="background: url(assets/images/slider/slider-bg.jpg)">
     <div class="container">
       <div class="row d-flex align-items-center slider">
         <div class="col-lg-7 col-md-6 col-sm-12">
@@ -29,17 +29,10 @@
             <img src="assets/images/slider/slider1.png" alt="" />
           </div>
         </div>
-        <div class="slider-socail-icon">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-pinterest-p"></i></a>
-          <span class="follow-us">Follow Us:</span>
-        </div>
       </div>
     </div>
   </div>
-  <div class="slider-area align-items-center d-flex" style="background: url(assets/images/slider/slider-bg1.jpg)">
+  <div class="slider-area align-items-center d-flex" style="background: url(assets/images/slider/slider-bg.jpg)">
     <div class="container">
       <div class="row d-flex align-items-center slider">
         <div class="col-lg-7 col-md-6 col-sm-12">
@@ -61,13 +54,6 @@
           <div class="dreamit-slider-thumb">
             <img src="assets/images/slider/slider1.png" alt="" />
           </div>
-        </div>
-        <div class="slider-socail-icon">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-pinterest-p"></i></a>
-          <span class="follow-us">Follow Us:</span>
         </div>
       </div>
     </div>

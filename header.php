@@ -298,7 +298,7 @@
               </ul>
             </div>
           </li>
-          <li><a href="test-preparation.php">Test Preparation</a></li>
+          <li><a href="test-preparation.php">Preparation Classes</a></li>
           <li>
             <a href="#">About Us <span><i class="fas fa-angle-down"></i></span></a>
             <div class="sub-menu about-submenu">

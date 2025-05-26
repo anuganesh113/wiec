@@ -45,9 +45,6 @@
 
         <div class="footer-widget-address">
           <div class="footer-inner">
-            <!-- <div class="footer-socail-icon">
-              <i class="flaticon-call"></i>
-            </div> -->
             <div class="footer-socail-info">
               <p>
                 <i class="flaticon-call"></i>
@@ -56,9 +53,7 @@
             </div>
           </div>
           <div class="footer-inner">
-            <!-- <div class="footer-socail-icon">
-              <i class="icon flaticon-email"></i>
-            </div> -->
+
             <div class="footer-socail-info">
               <p>
                 <i class="icon flaticon-email"></i>
@@ -67,13 +62,9 @@
             </div>
           </div>
           <div class="footer-inner">
-            <!-- <div class="footer-socail-icon">
-              <i class="icon flaticon-placeholder-1"></i>
-            </div> -->
             <div class="footer-socail-info2">
               <p>
                 <i class="icon flaticon-placeholder-1"></i>
-
                 Putalisadak 29, Kathmandu, Nepal, 23785
               </p>
             </div>
@@ -97,7 +88,7 @@
             <li><a href="resources.php">Resources</a></li>
             <li><a href="events.php">Events</a></li>
             <li><a href="contact.php">Contact us</a></li>
-            <li><a href="test-preparation.php">Test Preparation</a></li>
+            <li><a href="test-preparation.php">Preparation Classes</a></li>
           </ul>
 
           <ul class="menu">
@@ -255,6 +246,48 @@
 <!-- Odometer js -->
 
 <script>
+  // Script for increasing counter section
+  const createOdometer = (el, value) => {
+    const odometer = new Odometer({
+      el: el,
+      value: 0,
+    });
+
+    let hasRun = false;
+
+    const options = {
+      threshold: [0, 0.9],
+    };
+
+    const callback = (entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          if (!hasRun) {
+            odometer.update(value);
+            hasRun = true;
+          }
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(callback, options);
+    observer.observe(el);
+  };
+
+  const universitiesOdometer = document.querySelector(".universities-odometer");
+  createOdometer(universitiesOdometer, 100);
+
+  const studentsOdometer = document.querySelector(".students-odometer");
+  createOdometer(studentsOdometer, 5000);
+
+  const experienceOdometer = document.querySelector(".experience-odometer");
+  createOdometer(experienceOdometer, 6);
+
+  const satisfactionOdometer = document.querySelector(".satisfaction-odometer");
+  createOdometer(satisfactionOdometer, 89);
+</script>
+
+<script>
   document.addEventListener("DOMContentLoaded", function() {
     const yearSpan = document.getElementById("current-year");
     yearSpan.textContent = new Date().getFullYear();
@@ -277,8 +310,8 @@
       slidesToShow: 3,
       slidesToScroll: 3,
       autoplay: true,
-      arrows: false,
-      autoplaySpeed: 2000,
+      arrows: true,
+      autoplaySpeed: 3000,
       infinite: true,
       prevArrow: '<button class="custom-prev"><i class="fa-solid fa-circle-chevron-left"></i></button>',
       nextArrow: '<button class="custom-next"><i class="fa-solid fa-circle-chevron-right"></i></button>',
@@ -393,72 +426,7 @@
   });
 </script>
 
-<script>
-  const createOdometer = (el, value) => {
-    const odometer = new Odometer({
-      el: el,
-      value: 0,
-    });
 
-    let hasRun = false;
-
-    const options = {
-      threshold: [0, 0.9],
-    };
-
-    const callback = (entries, observer) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          if (!hasRun) {
-            odometer.update(value);
-            hasRun = true;
-          }
-        }
-      });
-    };
-
-    const observer = new IntersectionObserver(callback, options);
-    observer.observe(el);
-  };
-
-  const universitiesOdometer = document.querySelector(".universities-odometer");
-  createOdometer(universitiesOdometer, 100);
-
-  const studentsOdometer = document.querySelector(".students-odometer");
-  createOdometer(studentsOdometer, 5000);
-
-  const experienceOdometer = document.querySelector(".experience-odometer");
-  createOdometer(experienceOdometer, 6);
-
-  const satisfactionOdometer = document.querySelector(".satisfaction-odometer");
-  createOdometer(satisfactionOdometer, 89);
-</script>
-<script>
-  // Select all dropdown triggers and their corresponding lists
-  const dropdownTriggers = document.querySelectorAll('.dropdown');
-
-  // Loop through each dropdown trigger
-  dropdownTriggers.forEach(trigger => {
-    // Find the dropdown list associated with this trigger
-    // (assuming it's the next sibling element)
-    const dropdownList = trigger.nextElementSibling;
-
-    // Add click event listener
-    trigger.addEventListener('click', (e) => {
-      e.preventDefault(); // Prevent default link behavior if needed
-
-      // Close all other dropdowns first (optional)
-      document.querySelectorAll('.dropdown-list.active').forEach(activeList => {
-        if (activeList !== dropdownList) {
-          activeList.classList.remove('active');
-        }
-      });
-
-      // Toggle the current dropdown
-      dropdownList.classList.toggle('active');
-    });
-  });
-</script>
 
 <script>
   lightGallery(document.getElementById('animated-thumbnails-gallery'), {
