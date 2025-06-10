@@ -20,62 +20,52 @@
     <div class="university-details-section">
         <div class="description-section content-section">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <img src="assets/images/university/university.webp" alt="">
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="content">
-                            <p>WSU has a long tradition of innovation and entrepreneurship that spurs the economy and serves the needs of the local community. See how our latest big, audacious plans — which have doubled the size of campus in just a handful of years — are working to build a better future for our students, the state of Kansas and the world.
-                                <br><br>
-                                Year round, there’s so much to do on the Wichita State campus — from music, theater and dance performances to world-class museums to the heart-pounding excitement of Shocker athletics. Now, with the establishment of Braeburn Square and the development of community-facing resources like GoCreate, we have even more attractions for the Wichita community at large.
-                            </p>
-                            <div class="university-button">
-                                <a href="">VISIT WEBSITE<i class="flaticon-right-arrow"></i></a>
-                            </div>
-                        </div>
+                <div class="img-wrapper">
+                    <img src="assets/images/university/university.webp" alt="">
+                </div>
+                <div class="content">
+                    <p>WSU has a long tradition of innovation and entrepreneurship that spurs the economy and serves the needs of the local community. See how our latest big, audacious plans — which have doubled the size of campus in just a handful of years — are working to build a better future for our students, the state of Kansas and the world.
+                        <br><br>
+                        Year round, there’s so much to do on the Wichita State campus — from music, theater and dance performances to world-class museums to the heart-pounding excitement of Shocker athletics. Now, with the establishment of Braeburn Square and the development of community-facing resources like GoCreate, we have even more attractions for the Wichita community at large.
+                    </p>
+                    <div class="university-button">
+                        <a href="">VISIT WEBSITE<i class="flaticon-right-arrow"></i></a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="ways-to-study-section content-section">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h1 class="common-title"><span>Ways </span>to Study</h2>
-                    </div>
-                    <div class="col-md-6">
-                        <p>Wichita State is where the classroom and real-world experience collide. Our unmatched industry connections give Shockers in every major the opportunity to gain practical experience with employers in their areas of interest—preparing them for future success before graduation.</p>
-                    </div>
-                </div>
-                <div class="ways-section">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <a href="" class="ways-item">
-                                <p><span class="number">1</span>
-                                    Graduate Programs</p>
-                            </a>
-                        </div>
-                        <div class="col-md-6">
-                            <a href="" class="ways-item">
-                                <p><span class="number">2</span>
-                                    UnderGraduate Programs</p>
-                            </a>
-                        </div>
-                        <div class="col-md-6">
-                            <a href="" class="ways-item">
-                                <p><span class="number">3</span>
-                                    Online Programs</p>
-                            </a>
-                        </div>
-                        <div class="col-md-6">
-                            <a href="" class="ways-item">
-                                <p><span class="number">4</span>
-                                    Certificates</p>
-                            </a>
+                <h1 class="common-title"><span>Ways </span>to Study</h2>
+                    <p>Wichita State is where the classroom and real-world experience collide. Our unmatched industry connections give Shockers in every major the opportunity to gain practical experience with employers in their areas of interest—preparing them for future success before graduation.</p>
+                    <div class="ways-section">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a href="" class="ways-item">
+                                    <p><span class="number">1</span>
+                                        Graduate Programs</p>
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="" class="ways-item">
+                                    <p><span class="number">2</span>
+                                        UnderGraduate Programs</p>
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="" class="ways-item">
+                                    <p><span class="number">3</span>
+                                        Online Programs</p>
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="" class="ways-item">
+                                    <p><span class="number">4</span>
+                                        Certificates</p>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
             </div>
 
         </div>

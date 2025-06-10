@@ -9984,13 +9984,16 @@ div#particles .slider7.slider-area {
   border-top: 1px solid var(--primary-blue);
   margin-bottom: 0;
 }
-
+.university-details-section .description-section .img-wrapper {
+  display: flex;
+  justify-content: center;
+}
 .university-details-section .description-section img {
   border-radius: 20px;
 }
 
 .university-details-section .description-section .content {
-  margin: 100px 0 0 60px;
+  margin-top: 60px;
   font-size: 18px;
 }
 .university-details-section .university-button a {
