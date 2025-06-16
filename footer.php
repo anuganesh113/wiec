@@ -15,6 +15,7 @@
       <div class="col-lg-6 col-md-6 col-sm-12">
         <div class="contact-form-box">
           <form id="contact_form" action="mail.php" method="POST">
+            <input type="hidden" name="_token" value="gGTGYWdQ6ONoxVAglYt8BdiD9Fr9YvtBUyWlZERw" autocomplete="off">
             <div class="from-box">
               <input type="text" placeholder="Enter E-Mail Address" />
               <button>Subscribe</button>

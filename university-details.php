@@ -133,6 +133,12 @@
                 </div>
             </div>
         </div>
+
+        <div class="apply-now-button-area">
+            <div class="slider-button pulsate-bck">
+                <a href="book-appointment.php">Apply Now</a>
+            </div>
+        </div>
     </div>
 </div>
 
